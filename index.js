@@ -2,8 +2,8 @@ import { writeFileSync } from 'node:fs';
 import Parser from "rss-parser";
 
 let text = `
-![Logo_EunmaStudio2](C:/Users/dev/Documents/GitHub/Blog/Logo_EunmaStudio2.png)
-# Hi there 👋
+![Logo_EunmaStudio2](https://github.com/Oh-JunTaek/Blog/blob/main/Logo_EunmaStudio2.PNG)
+
 
 ## 📕 Latest Blog Posts
 
