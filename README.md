@@ -1,6 +1,6 @@
 
-![tumblr_274a5850aed7bb06a033d29105882770_01bb2de3_500](https://user-images.githubusercontent.com/91704826/224994575-846ea991-f3dc-4b0d-a9b3-e3cc7928ea44.gif)
-# Hi there 👋
+![Logo_EunmaStudio2](https://github.com/Oh-JunTaek/Blog/blob/main/Logo_EunmaStudio2.PNG)
+
 
 ## 📕 Latest Blog Posts
 
