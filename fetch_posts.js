@@ -21,30 +21,41 @@ const savePost = async () => {
     for (let i = 0; i < feed.items.length; i++) {
         const { title, link, categories } = feed.items[i];
 
-        // 포스팅 내용 가져오기
-        const response = await axios.get(link);
-        const dom = new JSDOM(response.data);
-        const content = dom.window.document.querySelector('.article').innerHTML;
+        try {
+            // 포스팅 내용 가져오기
+            const response = await axios.get(link);
+            const dom = new JSDOM(response.data);
+            const articleElement = dom.window.document.querySelector('.article');
 
-        // 카테고리별 폴더 경로 설정
-        const categoryPath = `./posts/${categories.join('/')}`;
-        if (!existsSync(categoryPath)) {
-            mkdirSync(categoryPath, { recursive: true });
-        }
+            if (!articleElement) {
+                throw new Error(`No article element found for post: ${title}`);
+            }
 
-        // 파일명 설정
-        const fileName = `${categoryPath}/${title.replace(/[/\\?%*:|"<>]/g, '-')}.md`;
+            const content = articleElement.innerHTML;
 
-        // Markdown 파일 내용 설정
-        const markdownContent = `
+            // 카테고리별 폴더 경로 설정
+            const categoryPath = `./posts/${categories.join('/')}`;
+            if (!existsSync(categoryPath)) {
+                mkdirSync(categoryPath, { recursive: true });
+            }
+
+            // 파일명 설정
+            const fileName = `${categoryPath}/${title.replace(/[/\\?%*:|"<>]/g, '-')}.md`;
+
+            // Markdown 파일 내용 설정
+            const markdownContent = `
 # ${title}
 
 ${content}
-        `;
+            `;
 
-        // Markdown 파일 생성
-        writeFileSync(fileName, markdownContent, 'utf8');
-        console.log(`Saved: ${fileName}`);
+            // Markdown 파일 생성
+            writeFileSync(fileName, markdownContent, 'utf8');
+            console.log(`Saved: ${fileName}`);
+        } catch (error) {
+            console.error(`Failed to fetch or save post: ${title}`);
+            console.error(error);
+        }
     }
 
     console.log('All posts saved.');
