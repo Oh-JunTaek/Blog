@@ -11,21 +11,32 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # GitHub 리포지토리 체크아웃
       - uses: actions/checkout@v3
+
+      # Node.js 설정
       - uses: actions/setup-node@v3
         with:
           node-version: 20
+
+      # 종속성 설치
       - name: Install dependencies
         run: npm ci
+
+      # README 업데이트
       - name: Update README
         run: npm start
+
+      # 변경 사항 커밋 및 푸시
       - name: Commit README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN2 }}
         run: |
           git add .
           git config --local user.email "aa39043533@gmail.com"
           git config --local user.name "eunma"
           git commit -m "Update README.md"
-          git push https://eunma:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/Oh-JunTaek/Blog.git
+          git push https://eunma:${{ secrets.PERSONAL_ACCESS_TOKEN2 }}@github.com/Oh-JunTaek/Blog.git
+
+
