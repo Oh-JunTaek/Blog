@@ -25,7 +25,7 @@ jobs:
 
       # README 업데이트
       - name: Update README
-        run: npm start
+        run: node index.js
 
       # 블로그 포스팅을 가져와서 저장
       - name: Fetch and Save Blog Posts
