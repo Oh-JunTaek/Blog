@@ -2,6 +2,7 @@ import { writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import Parser from "rss-parser";
 import axios from 'axios';
 import { JSDOM } from 'jsdom';
+import TurndownService from 'turndown';
 
 // RSS parser 설정
 const parser = new Parser({
@@ -9,6 +10,9 @@ const parser = new Parser({
         Accept: 'application/rss+xml, application/xml, text/xml; q=0.1',
     }
 });
+
+// Turndown 서비스 설정
+const turndownService = new TurndownService();
 
 // 블로그 RSS URL
 const rssUrl = 'https://eunmastudio.tistory.com/rss';
@@ -25,13 +29,16 @@ const savePost = async () => {
             // 포스팅 내용 가져오기
             const response = await axios.get(link);
             const dom = new JSDOM(response.data);
-            const articleElement = dom.window.document.querySelector('.article');
+            const articleElement = dom.window.document.querySelector('.article'); // 포스트 내용을 담고 있는 요소 선택
 
             if (!articleElement) {
                 throw new Error(`No article element found for post: ${title}`);
             }
 
-            const content = articleElement.innerHTML;
+            const htmlContent = articleElement.innerHTML;
+
+            // HTML을 마크다운으로 변환
+            const markdownContent = turndownService.turndown(htmlContent);
 
             // 카테고리별 폴더 경로 설정
             const categoryPath = `./posts/${categories.join('/')}`;
@@ -43,14 +50,14 @@ const savePost = async () => {
             const fileName = `${categoryPath}/${title.replace(/[/\\?%*:|"<>]/g, '-')}.md`;
 
             // Markdown 파일 내용 설정
-            const markdownContent = `
+            const markdownFileContent = `
 # ${title}
 
-${content}
+${markdownContent}
             `;
 
             // Markdown 파일 생성
-            writeFileSync(fileName, markdownContent, 'utf8');
+            writeFileSync(fileName, markdownFileContent, 'utf8');
             console.log(`Saved: ${fileName}`);
         } catch (error) {
             console.error(`Failed to fetch or save post: ${title}`);
@@ -63,4 +70,3 @@ ${content}
 
 // 실행
 savePost();
-

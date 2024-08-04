@@ -1,37 +1,38 @@
-import { writeFileSync } from 'node:fs';
 import Parser from "rss-parser";
+import axios from 'axios';
+import { JSDOM } from 'jsdom';
 
-// README.md 파일에 쓸 초기 텍스트 설정
-let text = `
-![Logo_EunmaStudio2](https://github.com/Oh-JunTaek/Blog/blob/main/Logo_EunmaStudio2.PNG)
-
-## 📕 Latest Blog Posts
-
-`;
-
-// rss-parser 설정
+// RSS parser 설정
 const parser = new Parser({
     headers: {
         Accept: 'application/rss+xml, application/xml, text/xml; q=0.1',
     }
 });
 
-// 비동기 함수 실행
-(async () => {
-    // Tistory RSS 피드 가져오기
-    const feed = await parser.parseURL('https://eunmastudio.tistory.com/rss');
+// 블로그 RSS URL
+const rssUrl = 'https://eunmastudio.tistory.com/rss';
 
-    // 최신 5개의 글의 제목과 링크를 text 변수에 추가
-    for (let i = 0; i < 5; i++) {
+const inspectPost = async () => {
+    // RSS 피드 가져오기
+    const feed = await parser.parseURL(rssUrl);
+
+    for (let i = 0; i < 1; i++) { // 첫 번째 포스트만 확인
         const { title, link } = feed.items[i];
-        text += `<a href=${link}>${title}</a></br>`;
+
+        try {
+            // 포스팅 내용 가져오기
+            const response = await axios.get(link);
+            const dom = new JSDOM(response.data);
+
+            // 포스팅 HTML을 콘솔에 출력
+            console.log(dom.window.document.body.innerHTML);
+            
+        } catch (error) {
+            console.error(`Failed to fetch post: ${title}`);
+            console.error(error);
+        }
     }
+};
 
-    // README.md 파일에 텍스트 쓰기
-    writeFileSync('README.md', text, 'utf8', (e) => {
-        console.log(e)
-    });
-
-    console.log('업데이트 완료');
-})();
-
+// 실행
+inspectPost();
