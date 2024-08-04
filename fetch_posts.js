@@ -29,7 +29,7 @@ const savePost = async () => {
             // 포스팅 내용 가져오기
             const response = await axios.get(link);
             const dom = new JSDOM(response.data);
-            const articleElement = dom.window.document.querySelector('.article'); // 포스트 내용을 담고 있는 요소 선택
+            const articleElement = dom.window.document.querySelector('.article-view'); // 여기를 올바른 셀렉터로 수정
 
             if (!articleElement) {
                 throw new Error(`No article element found for post: ${title}`);
