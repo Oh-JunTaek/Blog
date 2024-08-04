@@ -42,3 +42,4 @@ jobs:
           git config --local user.name "eunma"
           git commit -m "Update README and Fetch Blog Posts"
           git push https://eunma:${{ secrets.PERSONAL_ACCESS_TOKEN2 }}@github.com/Oh-JunTaek/Blog.git
+
