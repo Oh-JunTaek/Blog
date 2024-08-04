@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.3",
+    "jsdom": "^24.1.1",
     "rss-parser": "^3.13.0"
   }
 }
