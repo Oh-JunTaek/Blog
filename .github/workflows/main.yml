@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "0 23 * * 0" # 분(0-59) / 시간(0-23) / 일(1-31) / 월(1-12) / 요일(일요일은 0or7)
 
 jobs:
   build:
