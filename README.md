@@ -22,4 +22,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href="https://eunmastudio.tistory.com/14">[SQLD] 참조 무결성 제약조건 CASCADE, SET NULL, MODIFY</a></br><a href="https://eunmastudio.tistory.com/13">[SQLD] DROP, TRUNCATE, DELETE의 차이. DDL,DML,AUTOCOMMIT</a></br><a href="https://eunmastudio.tistory.com/12">수치 데이터 요약하기 - 기술통계 값 보기</a></br><a href="https://eunmastudio.tistory.com/11">결측치 다루기</a></br><a href="https://eunmastudio.tistory.com/10">데이터 분포 확인 퀴즈</a></br>
+<a href="https://eunmastudio.tistory.com/15">온라인 판매 분석 퀴즈</a></br><a href="https://eunmastudio.tistory.com/14">[SQLD] 참조 무결성 제약조건 CASCADE, SET NULL, MODIFY</a></br><a href="https://eunmastudio.tistory.com/13">[SQLD] DROP, TRUNCATE, DELETE의 차이. DDL,DML,AUTOCOMMIT</a></br><a href="https://eunmastudio.tistory.com/12">수치 데이터 요약하기 - 기술통계 값 보기</a></br><a href="https://eunmastudio.tistory.com/11">결측치 다루기</a></br>
