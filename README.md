@@ -22,4 +22,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href="https://eunmastudio.tistory.com/16">코칭스터디 Generative AI 2024</a></br><a href="https://eunmastudio.tistory.com/15">온라인 판매 분석 퀴즈</a></br><a href="https://eunmastudio.tistory.com/14">[SQLD] 참조 무결성 제약조건 CASCADE, SET NULL, MODIFY</a></br><a href="https://eunmastudio.tistory.com/13">[SQLD] DROP, TRUNCATE, DELETE의 차이. DDL,DML,AUTOCOMMIT</a></br><a href="https://eunmastudio.tistory.com/12">수치 데이터 요약하기 - 기술통계 값 보기</a></br>
+<a href="https://eunmastudio.tistory.com/19">F5 TTS - 사전학습이 필요없는 제로샷 TTS</a></br><a href="https://eunmastudio.tistory.com/18">Llama 3.2 모델 출시</a></br><a href="https://eunmastudio.tistory.com/17">[CNN] 필기체 숫자 분류 딥러닝 모델</a></br><a href="https://eunmastudio.tistory.com/16">코칭스터디 Generative AI 2024</a></br><a href="https://eunmastudio.tistory.com/15">온라인 판매 분석 퀴즈</a></br>
