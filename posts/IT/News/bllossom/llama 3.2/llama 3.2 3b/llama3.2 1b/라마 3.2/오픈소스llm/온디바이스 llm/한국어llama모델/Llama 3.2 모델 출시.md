@@ -111,7 +111,7 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 
 #### '[IT](/category/IT) > [News](/category/IT/News)' 카테고리의 다른 글
 
-[F5 TTS - 사전학습이 필요없는 제로샷 TTS](/19)  (1)
+[F5 TTS 사용법](/19)  (1)
 
 2024.10.16
             
