@@ -288,6 +288,8 @@ NLP 파이프라인 구축을 위한 지식 및 기술
     *   다른 모델 시도(랜덤 포레스트, svm)
     *   Word2Vec, BERT 등과 같은 더 복잡한 임베딩 기법 사용
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 20 }
 
 공유하기

@@ -33,6 +33,8 @@ KEYNOTE를 확인하고 AI에 관심있다면 온라인으로라도 참석하면
 
 ![](https://blog.kakaocdn.net/dn/JyJPJ/btsKedsYKK3/KhZU34DFcznP8m0AggcAFk/img.png)
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 22 }
 
 공유하기

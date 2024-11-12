@@ -1,6 +1,8 @@
 
 # OpenAI의 Swarm Framework의 목적과 이해.
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 SWARM
 =====
 

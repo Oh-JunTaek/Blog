@@ -57,6 +57,8 @@ m.place.naver.com](https://naver.me/Gxkm5eL5)
 
 부트캠프에서는 단순히 강의를 듣는 것에서 그치지 않고, 다양한 혜택을 통해 여러분이 **직접 경험하고 실습할 수 있는 환경을 제공**해 드립니다. 공부에 몰입하면서도 동료들과 즐거운 시간을 보낼 수 있는 기회, 최신 AI 도구의 활용, 실물 서적을 통한 심화 학습까지! 이런 혜택을 통해 여러분의 학습이 한층 더 풍부해질 거예요.
 
+![](https://blog.kakaocdn.net/dn/kDx0D/btsKFJd8Ni9/5TeK0kF35YxMdaRAchQxE0/img.jpg)
+
 카카오테크 부트캠프의 다양한 지원 혜택을 통해 여러분의 성장을 함께 해 보세요. 부트캠프에서의 여정을 통해 한층 더 성장한 여러분의 모습을 기대합니다! 이 모든 것을 정말 내 거처럼 느낄 수 있도록 멋진 선물도 제공해 준답니다!
 
 ![](https://blog.kakaocdn.net/dn/44rMJ/btsKDpBOD8f/OSF7O4xxyGKS6WPZDNmE00/img.jpg)
@@ -74,6 +76,8 @@ m.place.naver.com](https://naver.me/Gxkm5eL5)
 #카카오 #kakao #카카오테크부트캠프 #카테부 #카테부커뮤니티 #kakaotechbootcamp #KTB #부트캠프 #부트캠프추천 #판교부트캠프 #판교 #풀스택 #인공지능 #클라우드 #goorm #한국전파진흥협회
 
 * * *
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 24 }
 

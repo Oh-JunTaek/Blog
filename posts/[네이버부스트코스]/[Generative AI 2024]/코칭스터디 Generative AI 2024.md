@@ -1,6 +1,8 @@
 
 # 코칭스터디 Generative AI 2024
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 ![](https://blog.kakaocdn.net/dn/TMjGZ/btsJLZpAu7L/9K7hWHOSZPl8YbuRsEpQUk/img.png)
 
 *   [네이버 부스트코스](https://www.boostcourse.org/)에서 코칭스터디(Generative AI 2024) 스터디원 모집이 시작되었습니다.

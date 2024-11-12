@@ -1,6 +1,8 @@
 
 # [CNN] 필기체 숫자 분류 딥러닝 모델
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 CNN 딥러닝을 활용한 간단한 사이드 프로젝트 - 필기체 숫자 분류
 =====================================
 

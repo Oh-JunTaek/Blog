@@ -1,6 +1,8 @@
 
 # F5 TTS 사용법
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 #### _**TTS란?**_
 
 Text To Speech의 줄임말이며 컴퓨터의 프로그램을 통해 사람의 목소리를 구현해 내는 것으로, 성우 없이도 단어와 문장의 음성을 쉽게 소리 내는 것이 특징인 기술.

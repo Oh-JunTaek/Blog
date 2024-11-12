@@ -97,6 +97,8 @@ github.com](https://github.com/openai/swarm)
 
 테디노트 유튜브 : [https://www.youtube.com/watch?v=iqXn6Oiis4Q](https://www.youtube.com/watch?v=iqXn6Oiis4Q)
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 21 }
 
 공유하기
