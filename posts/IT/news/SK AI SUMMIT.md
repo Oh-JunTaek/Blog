@@ -1,6 +1,8 @@
 
 # SK AI SUMMIT
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 많은 AI 전문가들과 함께하는 [SK AI SUMMIT](https://skaisummit.com/)입니다. 
 
 행사 일정 정보 
@@ -33,8 +35,6 @@ KEYNOTE를 확인하고 AI에 관심있다면 온라인으로라도 참석하면
 
 ![](https://blog.kakaocdn.net/dn/JyJPJ/btsKedsYKK3/KhZU34DFcznP8m0AggcAFk/img.png)
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 22 }
 
 공유하기
@@ -42,4 +42,10 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 게시글 관리
 
 **EunmaStudio**
+
+#### '[IT](/category/IT) > [news](/category/IT/news)' 카테고리의 다른 글
+
+[MS - Magentic-one 다중 에이전트 시스템 마젠틱 원](/25)  (3)
+
+2024.11.14
             
