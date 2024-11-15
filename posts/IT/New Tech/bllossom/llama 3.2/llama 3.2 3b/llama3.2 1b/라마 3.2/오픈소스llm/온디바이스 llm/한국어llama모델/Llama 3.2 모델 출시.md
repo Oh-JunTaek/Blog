@@ -1,8 +1,6 @@
 
 # Llama 3.2 모델 출시
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 오픈소스 LLM모델로 유명한 Llama 시리즈가 몇 달 전 3.1을 출시했는데 더욱 가벼워진 3.2로 돌아왔습니다.
 
 3.2 모델은 경량화된 1B, 3B 모델을 포함하여 개인 사용자의 접근성을 넓혔습니다. 
@@ -102,6 +100,8 @@ Bllossom팀의 소개글입니다.
     2. 좋은 언어모델 계속 업데이트 하겠습니다!! 한국어 강화를위해 공동 연구하실분(특히논문) 언제든 환영합니다!! 
 
 * * *
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 18 }
 

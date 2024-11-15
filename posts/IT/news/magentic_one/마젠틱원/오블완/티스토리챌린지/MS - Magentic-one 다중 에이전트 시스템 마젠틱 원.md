@@ -1,8 +1,6 @@
 
 # MS - Magentic-one 다중 에이전트 시스템 마젠틱 원
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 Magentic-one
 ============
 
@@ -175,6 +173,8 @@ A programming framework for agentic AI 🤖. Contribute to microsoft/autogen dev
 github.com](https://github.com/microsoft/autogen/tree/main/python/packages/autogen-magentic-one)
 
 * * *
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 25 }
 

@@ -22,4 +22,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href="https://eunmastudio.tistory.com/25">MS - Magentic-one 다중 에이전트 시스템 마젠틱 원</a></br><a href="https://eunmastudio.tistory.com/24">카카오 부트캠프 생성형 AI 1기 후기</a></br><a href="https://eunmastudio.tistory.com/23">OpenAI의 Swarm Framework의 목적과 이해.</a></br><a href="https://eunmastudio.tistory.com/22">SK AI SUMMIT</a></br><a href="https://eunmastudio.tistory.com/21">멀티 에이전트 시스템- SWARM</a></br>
+<a href="https://eunmastudio.tistory.com/26">멀티 에이전트 Magentic-one 논문 리뷰</a></br><a href="https://eunmastudio.tistory.com/25">MS - Magentic-one 다중 에이전트 시스템 마젠틱 원</a></br><a href="https://eunmastudio.tistory.com/24">카카오 부트캠프 생성형 AI 1기 후기</a></br><a href="https://eunmastudio.tistory.com/23">OpenAI의 Swarm Framework의 목적과 이해.</a></br><a href="https://eunmastudio.tistory.com/22">SK AI SUMMIT</a></br>
