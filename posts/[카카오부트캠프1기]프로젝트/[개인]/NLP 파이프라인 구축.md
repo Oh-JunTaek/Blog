@@ -1,8 +1,6 @@
 
 # NLP 파이프라인 구축
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 자연어 처리 NLP 파이프라인을 구축하고 성능을 평가하는 작업
 ==================================
 
@@ -289,6 +287,8 @@ NLP 파이프라인 구축을 위한 지식 및 기술
     *   더 많은 데이터를 사용하여 모델 개선
     *   다른 모델 시도(랜덤 포레스트, svm)
     *   Word2Vec, BERT 등과 같은 더 복잡한 임베딩 기법 사용
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 20 }
 
