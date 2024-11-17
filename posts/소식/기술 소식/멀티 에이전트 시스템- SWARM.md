@@ -1,8 +1,6 @@
 
 # 멀티 에이전트 시스템- SWARM
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 ![](https://blog.kakaocdn.net/dn/W32dp/btsKccvFDdd/v7HckO0h8YWRc5lcGIJV8k/img.png)
 
 llm을 활용할 수 있는 새로운 프레임 워크 openAI의 SWARM이 공개되었는데 공개된지 한 달이 되지 않았는데 많은 사람들이 관심을 가지고 있습니다.
@@ -98,6 +96,8 @@ Educational framework exploring ergonomic, lightweight multi-agent orchestration
 github.com](https://github.com/openai/swarm)
 
 테디노트 유튜브 : [https://www.youtube.com/watch?v=iqXn6Oiis4Q](https://www.youtube.com/watch?v=iqXn6Oiis4Q)
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 21 }
 
