@@ -1,6 +1,8 @@
 
 # SK AI SUMMIT
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 많은 AI 전문가들과 함께하는 [SK AI SUMMIT](https://skaisummit.com/)입니다. 
 
 행사 일정 정보 
@@ -32,8 +34,6 @@
 KEYNOTE를 확인하고 AI에 관심있다면 온라인으로라도 참석하면 좋을 것 같습니다.
 
 ![](https://blog.kakaocdn.net/dn/JyJPJ/btsKedsYKK3/KhZU34DFcznP8m0AggcAFk/img.png)
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 22 }
 
