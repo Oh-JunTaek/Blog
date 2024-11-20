@@ -287,7 +287,7 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 
 #### '[\[AI\]](/category/%5BAI%5D) > [프레임워크](/category/%5BAI%5D/%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)' 카테고리의 다른 글
 
-[MS - Magentic-one 다중 에이전트 시스템 마젠틱 원](/25)  (4)
+[MS - Magentic-one 다중 에이전트 시스템 마젠틱 원](/25)  (5)
 
 2024.11.14
 

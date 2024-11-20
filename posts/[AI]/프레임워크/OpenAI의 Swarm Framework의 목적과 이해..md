@@ -1,8 +1,6 @@
 
 # OpenAI의 Swarm Framework의 목적과 이해.
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 SWARM
 =====
 
@@ -80,6 +78,8 @@ SWARM의 기능
 *   [https://pureai.com/Articles/2024/10/14/OpenAI-Releases-the-Swarm-Framework.aspx](https://pureai.com/Articles/2024/10/14/OpenAI-Releases-the-Swarm-Framework.aspx)
 *   [https://github.com/openai/swarm?tab=readme-ov-file](https://github.com/openai/swarm?tab=readme-ov-file)
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 23 }
 
 공유하기
@@ -94,7 +94,7 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 
 2024.11.15
 
-[MS - Magentic-one 다중 에이전트 시스템 마젠틱 원](/25)  (4)
+[MS - Magentic-one 다중 에이전트 시스템 마젠틱 원](/25)  (5)
 
 2024.11.14
             
