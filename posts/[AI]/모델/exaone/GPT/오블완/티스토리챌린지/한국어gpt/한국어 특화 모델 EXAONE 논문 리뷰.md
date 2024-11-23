@@ -1,8 +1,6 @@
 
 # 한국어 특화 모델 EXAONE 논문 리뷰
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 ### Intro
 
 *   본 글의 목차는 논문의 흐름에 맞추었습니다.
@@ -423,6 +421,8 @@ _**결론**_
     *   **엔터프라이즈 AI 에이전트**의 기반으로 활용되어 비즈니스 워크플로우를 최적화하고, 효율성과 생산성을 향상.
 *   **향후 계획**:
     *   이번에 공개된 7.8B 모델은 비상업적 및 연구 목적으로 제한적으로 제공되지만, 다양한 응용 사례를 통해 추가 모델의 공개 가능성을 열어갈 계획.
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 28 }
 
