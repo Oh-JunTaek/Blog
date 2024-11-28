@@ -1,6 +1,8 @@
 
 # 멀티 에이전트 Magentic-one 논문 리뷰
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 논문 : [https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Magentic-One.pdf](https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Magentic-One.pdf)
 
 멀티 에이전트 Magentic-ONE
@@ -274,8 +276,6 @@ docs.google.com](https://docs.google.com/spreadsheets/d/1M801lEpBbKSNwP-vDBkC_pF
 huggingface.co](https://huggingface.co/spaces/AssistantBench/leaderboard)
 
 논문 : [https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Magentic-One.pdf](https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Magentic-One.pdf)
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 26 }
 
