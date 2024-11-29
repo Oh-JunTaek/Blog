@@ -22,4 +22,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href="https://eunmastudio.tistory.com/32">오픽과 tts/stt 그 사이</a></br><a href="https://eunmastudio.tistory.com/31">판교 함바그</a></br><a href="https://eunmastudio.tistory.com/30">투썸 디저트</a></br><a href="https://eunmastudio.tistory.com/29">맛있는 롤</a></br><a href="https://eunmastudio.tistory.com/28">한국어 특화 모델 EXAONE 논문 리뷰</a></br>
+<a href="https://eunmastudio.tistory.com/33">깃 커밋 규칙</a></br><a href="https://eunmastudio.tistory.com/32">오픽과 tts/stt 그 사이</a></br><a href="https://eunmastudio.tistory.com/31">판교 함바그</a></br><a href="https://eunmastudio.tistory.com/30">투썸 디저트</a></br><a href="https://eunmastudio.tistory.com/29">맛있는 롤</a></br>

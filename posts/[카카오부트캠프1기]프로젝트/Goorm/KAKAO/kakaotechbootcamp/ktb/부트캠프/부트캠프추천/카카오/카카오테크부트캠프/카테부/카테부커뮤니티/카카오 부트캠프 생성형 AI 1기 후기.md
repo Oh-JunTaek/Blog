@@ -1,8 +1,6 @@
 
 # 카카오 부트캠프 생성형 AI 1기 후기
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 부트캠프를 선택할 때, 여러분이 단지 수업만 듣는 것이 아니라 다양한 경험을 통해 성장할 수 있는 환경을 원할 거예요. 카카오테크 부트캠프는 바로 그런 분들을 위해 준비된 곳입니다. 특히 필자인 저도 비전공자 출신으로 부트캠프에 참여하고 있지만, 다양한 지원 혜택 덕분에 큰 어려움 없이 교육을 잘 듣고 있습니다. 여러분도 비전공자라도 충분히 도전할 수 있는 환경이 마련되어 있으니 망설이지 말고 참여해 보세요!
 
 카카오테크 부트캠프는 바로 그런 분들을 위해 준비된 곳입니다. 오늘은 카카오테크 부트캠프에서 제공하는 다양한 **교육 관련 지원 혜택**을 소개하려고 해요. 학습에 대한 열정은 물론, 학습 외 시간도 알차게 보낼 수 있는 다양한 혜택들이 가득하답니다!
@@ -78,6 +76,8 @@ m.place.naver.com](https://naver.me/Gxkm5eL5)
 #카카오 #kakao #카카오테크부트캠프 #카테부 #카테부커뮤니티 #kakaotechbootcamp #KTB #부트캠프 #부트캠프추천 #판교부트캠프 #판교 #풀스택 #인공지능 #클라우드 #goorm #한국전파진흥협회
 
 * * *
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 24 }
 
