@@ -112,6 +112,10 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 
 #### '[\[AI\]](/category/%5BAI%5D) > [모델](/category/%5BAI%5D/%EB%AA%A8%EB%8D%B8)' 카테고리의 다른 글
 
+[논문 기반 검색 증강 언어 모델 OpenScholar](/34)  (1)
+
+2024.11.30
+
 [한국어 특화 모델 EXAONE 논문 리뷰](/28)  (2)
 
 2024.11.17
