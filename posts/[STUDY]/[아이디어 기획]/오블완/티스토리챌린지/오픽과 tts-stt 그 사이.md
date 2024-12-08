@@ -1,6 +1,8 @@
 
 # 오픽과 tts/stt 그 사이
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 프로젝트 계획서: 사용자 중심 오픽 영어 학습 시스템
 =============================
 
@@ -156,8 +158,6 @@
 ------
 
 이 프로젝트는 STT, LLM, TTS를 결합하여 사용자 맞춤형 영어 학습 환경을 제공
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 32 }
 
