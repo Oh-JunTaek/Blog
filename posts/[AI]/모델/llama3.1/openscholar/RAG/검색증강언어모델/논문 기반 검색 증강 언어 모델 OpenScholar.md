@@ -1,6 +1,8 @@
 
 # 논문 기반 검색 증강 언어 모델 OpenScholar
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 ![](https://blog.kakaocdn.net/dn/nMuvI/btsK1SKnCV0/mAJumiKwPWBQRFL1UjiIB0/img.png)
 
 **OpenScholar**
@@ -345,8 +347,6 @@ The set of models, index, data associated with the paper "OpenScholar: Synthesiz
 
 huggingface.co](https://huggingface.co/collections/OpenScholar/openscholar-v1-67376a89f6a80f448da411a6)
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 34 }
 
 공유하기
@@ -356,10 +356,6 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 **EunmaStudio**
 
 #### '[\[AI\]](/category/%5BAI%5D) > [모델](/category/%5BAI%5D/%EB%AA%A8%EB%8D%B8)' 카테고리의 다른 글
-
-[한국어 특화 모델 EXAONE 논문 리뷰](/28)  (2)
-
-2024.11.17
 
 [한국어 자연어 처리 언어 모델 Exaone 소개](/27)  (0)
 

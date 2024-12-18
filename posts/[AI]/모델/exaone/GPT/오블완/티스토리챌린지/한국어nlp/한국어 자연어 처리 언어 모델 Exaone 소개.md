@@ -1,8 +1,6 @@
 
 # 한국어 자연어 처리 언어 모델 Exaone 소개
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 ![](https://blog.kakaocdn.net/dn/Ovsoz/btsKLsR7HYt/KMKCZjXy1CFNrKjP89sC30/img.png)
 
 목차
@@ -102,6 +100,8 @@ Exaone은 뛰어난 성능을 자랑하지만, 여전히 몇 가지 한계를 �
 
 이 후 깃허브, 허깅페이스를 활용한 구체적인 예시를 확인해보겠습니다.
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 27 }
 
 공유하기
@@ -115,8 +115,4 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 [논문 기반 검색 증강 언어 모델 OpenScholar](/34)  (4)
 
 2024.11.30
-
-[한국어 특화 모델 EXAONE 논문 리뷰](/28)  (2)
-
-2024.11.17
             
