@@ -22,4 +22,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href="https://eunmastudio.tistory.com/37">[학습 계획] 푸리에 변환</a></br><a href="https://eunmastudio.tistory.com/36">[MetaCode특강] 비전공자 출신 AI 개발자 전략</a></br><a href="https://eunmastudio.tistory.com/35">[ Konference]카카오테크부트캠프 기술 세미나 - 멀티에이전트시스템</a></br><a href="https://eunmastudio.tistory.com/34">논문 기반 검색 증강 언어 모델 OpenScholar</a></br><a href="https://eunmastudio.tistory.com/33">깃 커밋 규칙</a></br>
+<a href="https://eunmastudio.tistory.com/38">[학습 계획] OCR</a></br><a href="https://eunmastudio.tistory.com/37">[학습 계획] 푸리에 변환</a></br><a href="https://eunmastudio.tistory.com/36">[MetaCode특강] 비전공자 출신 AI 개발자 전략</a></br><a href="https://eunmastudio.tistory.com/35">[ Konference]카카오테크부트캠프 기술 세미나 - 멀티에이전트시스템</a></br><a href="https://eunmastudio.tistory.com/34">논문 기반 검색 증강 언어 모델 OpenScholar</a></br>

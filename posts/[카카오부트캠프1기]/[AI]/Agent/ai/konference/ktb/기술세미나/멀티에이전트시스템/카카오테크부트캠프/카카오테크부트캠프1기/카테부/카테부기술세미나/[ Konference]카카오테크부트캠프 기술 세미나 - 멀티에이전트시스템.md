@@ -1,6 +1,8 @@
 
 # [ Konference]카카오테크부트캠프 기술 세미나 - 멀티에이전트시스템
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 카카오테크 부트캠프에서 기술세미나 Koference 를 진행합니다.
 
 저는 MAS(멀티에이전트시스템)을 중심으로 다루었으며 비전공자 수준으로도 이해하기 쉬운 난이도로 준비를 해보았습니다.
@@ -99,8 +101,6 @@ ieeexplore.ieee.org](https://ieeexplore.ieee.org/document/10546975?denied=)
 *   [https://pdfs.semanticscholar.org/6a10/34a78c8af8e0c037fb404db85e6d836b83c7.pdf?\_gl=1\*1kydd70\*\_gcl\_au\*MTE1NDA1NzE5My4xNzMyNTExOTk4\*\_ga\*MTgwMjE1NjQxOC4xNzMyNTExOTk4\*\_ga\_H7P4ZT52H5\*MTczMjUzNjk4OC4zLjAuMTczMjUzNzI1My4yNy4wLjA.](https://pdfs.semanticscholar.org/6a10/34a78c8af8e0c037fb404db85e6d836b83c7.pdf?_gl=1*1kydd70*_gcl_au*MTE1NDA1NzE5My4xNzMyNTExOTk4*_ga*MTgwMjE1NjQxOC4xNzMyNTExOTk4*_ga_H7P4ZT52H5*MTczMjUzNjk4OC4zLjAuMTczMjUzNzI1My4yNy4wLjA.)
 *   [https://arxiv.org/pdf/2411.04468](https://arxiv.org/pdf/2411.04468)
 *   [https://pdfs.semanticscholar.org/0339/1771ff7bfc4d85669639c15c2cb39e5a9e86.pdf](https://pdfs.semanticscholar.org/0339/1771ff7bfc4d85669639c15c2cb39e5a9e86.pdf)
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 35 }
 
