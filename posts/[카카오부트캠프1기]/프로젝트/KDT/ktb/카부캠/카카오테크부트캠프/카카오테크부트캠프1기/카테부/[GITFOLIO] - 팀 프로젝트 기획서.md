@@ -1,6 +1,8 @@
 
 # [GITFOLIO] - 팀 프로젝트 기획서
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 안녕하세요! 이번 글에서는 **카카오테크 부트캠프 1기**에서 진행한 팀 프로젝트를 소개하고자 합니다.
 
 저희 팀은 총 **6명**으로 구성되어 있으며, 각 분야의 수강생들이 협업하고 있습니다
@@ -53,8 +55,6 @@
 
 ![](https://blog.kakaocdn.net/dn/Hyz3r/btsLxZgdA5h/FKP3BlGX8ERVwPjCfJeTk0/img.jpg)
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 40 }
 
 공유하기
@@ -64,6 +64,10 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 **EunmaStudio**
 
 #### '[\[카카오부트캠프1기\]](/category/%5B%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%841%EA%B8%B0%5D) > [프로젝트](/category/%5B%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%841%EA%B8%B0%5D/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)' 카테고리의 다른 글
+
+[\[GITFOLIO\] - 팀 프로젝트 중간 발표](/41)  (0)
+
+2025.01.02
 
 [\[카부캠/팀PJ\]챗봇 - 데이터 준비](/3)  (0)
 
