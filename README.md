@@ -22,4 +22,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href="https://eunmastudio.tistory.com/41">[GITFOLIO] - 팀 프로젝트 중간 발표</a></br><a href="https://eunmastudio.tistory.com/40">[GITFOLIO] - 팀 프로젝트 기획서</a></br><a href="https://eunmastudio.tistory.com/39">[학습 계획] Github 기초부터 Master까지</a></br><a href="https://eunmastudio.tistory.com/38">[학습 계획] OCR</a></br><a href="https://eunmastudio.tistory.com/37">[학습 계획] 푸리에 변환</a></br>
+<a href="https://eunmastudio.tistory.com/42">[GITFOLIO] 최종 발표</a></br><a href="https://eunmastudio.tistory.com/41">[GITFOLIO] - 팀 프로젝트 중간 발표</a></br><a href="https://eunmastudio.tistory.com/40">[GITFOLIO] - 팀 프로젝트 기획서</a></br><a href="https://eunmastudio.tistory.com/39">[학습 계획] Github 기초부터 Master까지</a></br><a href="https://eunmastudio.tistory.com/38">[학습 계획] OCR</a></br>
