@@ -1,8 +1,6 @@
 
 # [GITFOLIO] - 팀 프로젝트 중간 발표
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 기획서 보러가기 - \[[GITFOLIO기획서](https://eunmastudio.tistory.com/40)\]
 
 * * *
@@ -46,6 +44,8 @@
 ![](https://blog.kakaocdn.net/dn/tnmVP/btsLwtpktdt/FOkwB4kpM0BKLhXepKb350/img.jpg)
 
 ![](https://blog.kakaocdn.net/dn/pwipd/btsLwJyHhKe/KpqozKjcGpkgJn3vmb9BK0/img.jpg)
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 41 }
 
