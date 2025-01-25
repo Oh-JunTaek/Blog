@@ -1,8 +1,6 @@
 
 # [학습 계획] Github 기초부터 Master까지
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 **학습 계획서**
 ----------
 
@@ -126,6 +124,8 @@ www.boostcourse.org](http://www.boostcourse.org/cs103)
 
 1.  팀 프로젝트 진행: 브랜치 전략, Pull Requests, Issues를 활용한 협업
 2.  깃허브 포트폴리오 작성: 프로필 README와 프로젝트 레포지토리 구성
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 39 }
 
