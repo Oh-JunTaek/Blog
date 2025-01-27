@@ -1,6 +1,8 @@
 
 # [GITFOLIO] 최종 발표
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 기획서 보러가기 - \[[GITFOLIO 기획서](https://eunmastudio.tistory.com/40)\]
 
 중간발표 보러가기 - \[[GITFOLIO 중간 발표](https://eunmastudio.tistory.com/41)\]
@@ -100,8 +102,6 @@
 시연영상
 
 * * *
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 42 }
 

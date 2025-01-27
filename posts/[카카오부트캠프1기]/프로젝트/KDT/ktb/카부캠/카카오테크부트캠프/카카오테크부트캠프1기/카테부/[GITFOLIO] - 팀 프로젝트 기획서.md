@@ -1,6 +1,8 @@
 
 # [GITFOLIO] - 팀 프로젝트 기획서
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 안녕하세요! 이번 글에서는 **카카오테크 부트캠프 1기**에서 진행한 팀 프로젝트를 소개하고자 합니다.
 
 저희 팀은 총 **6명**으로 구성되어 있으며, 각 분야의 수강생들이 협업하고 있습니다
@@ -52,8 +54,6 @@
 ![](https://blog.kakaocdn.net/dn/bgi8WO/btsLyaWiRW4/OTuaF3ks7ML11YkTvgPzXk/img.jpg)
 
 ![](https://blog.kakaocdn.net/dn/Hyz3r/btsLxZgdA5h/FKP3BlGX8ERVwPjCfJeTk0/img.jpg)
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 40 }
 
