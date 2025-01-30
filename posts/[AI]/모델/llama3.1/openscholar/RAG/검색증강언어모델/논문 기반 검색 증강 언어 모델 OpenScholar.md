@@ -1,8 +1,6 @@
 
 # 논문 기반 검색 증강 언어 모델 OpenScholar
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 ![](https://blog.kakaocdn.net/dn/nMuvI/btsK1SKnCV0/mAJumiKwPWBQRFL1UjiIB0/img.png)
 
 **OpenScholar**
@@ -346,6 +344,8 @@ Model checkpoints, index, data: [https://huggingface.co/collections/OpenScholar
 The set of models, index, data associated with the paper "OpenScholar: Synthesizing Scientific Literature with Retrieval-Augmented LMs".
 
 huggingface.co](https://huggingface.co/collections/OpenScholar/openscholar-v1-67376a89f6a80f448da411a6)
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 34 }
 

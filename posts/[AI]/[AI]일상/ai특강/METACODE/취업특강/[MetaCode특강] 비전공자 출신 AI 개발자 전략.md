@@ -1,6 +1,8 @@
 
 # [MetaCode특강] 비전공자 출신 AI 개발자 전략
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 ### 우연히 특강 정보를 입수해서 들었습니다!
 
 링크 : [메타코드](https://metacodes.co.kr/edu/read2.nx?M2_IDX=31635&EP_IDX=15513&EM_IDX=15336)
@@ -142,8 +144,6 @@ metacodes.co.kr](https://metacodes.co.kr/edu/read2.nx?M2_IDX=31635&EP_IDX=15513&
 비전공자라도 꾸준히 학습하고 실전 경험을 쌓으면 AI 분야에서 강점을 가질 수 있습니다.
 
 **목표 설정** → **역량 강화** → **포트폴리오 구축**을 반복하세요! 
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 36 }
 
