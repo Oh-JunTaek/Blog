@@ -1,6 +1,8 @@
 
 # [학습 계획] OCR
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 **학습 계획서**
 ----------
 
@@ -113,8 +115,6 @@ www.boostcourse.org](http://www.boostcourse.org/ai343)
 *   확장 - OCR의 한계와 최신 연구 동향
 
 * * *
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 38 }
 
