@@ -22,4 +22,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href="https://eunmastudio.tistory.com/43">[코칭스터디]생성형 AI 활용 온라인 스터디</a></br><a href="https://eunmastudio.tistory.com/42">[GITFOLIO] 최종 발표</a></br><a href="https://eunmastudio.tistory.com/41">[GITFOLIO] - 팀 프로젝트 중간 발표</a></br><a href="https://eunmastudio.tistory.com/40">[GITFOLIO] - 팀 프로젝트 기획서</a></br><a href="https://eunmastudio.tistory.com/39">[학습 계획] Github 기초부터 Master까지</a></br>
+<a href="https://eunmastudio.tistory.com/45">DeepSeek 알아보기 - 논문 전문 한글 번역</a></br><a href="https://eunmastudio.tistory.com/44">프로젝트 초안</a></br><a href="https://eunmastudio.tistory.com/43">[코칭스터디]생성형 AI 활용 온라인 스터디</a></br><a href="https://eunmastudio.tistory.com/42">[GITFOLIO] 최종 발표</a></br><a href="https://eunmastudio.tistory.com/41">[GITFOLIO] - 팀 프로젝트 중간 발표</a></br>
