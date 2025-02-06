@@ -22,4 +22,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href="https://eunmastudio.tistory.com/46">Human Pose Estimation 실습 계획서</a></br><a href="https://eunmastudio.tistory.com/45">DeepSeek 알아보기 - 논문 전문 한글 번역</a></br><a href="https://eunmastudio.tistory.com/44">프로젝트 초안</a></br><a href="https://eunmastudio.tistory.com/43">[코칭스터디]생성형 AI 활용 온라인 스터디</a></br><a href="https://eunmastudio.tistory.com/42">[GITFOLIO] 최종 발표</a></br>
+<a href="https://eunmastudio.tistory.com/47">Human Pose Estimation</a></br><a href="https://eunmastudio.tistory.com/46">Human Pose Estimation 실습 계획서</a></br><a href="https://eunmastudio.tistory.com/45">DeepSeek 알아보기 - 논문 전문 한글 번역</a></br><a href="https://eunmastudio.tistory.com/44">프로젝트 초안</a></br><a href="https://eunmastudio.tistory.com/43">[코칭스터디]생성형 AI 활용 온라인 스터디</a></br>
