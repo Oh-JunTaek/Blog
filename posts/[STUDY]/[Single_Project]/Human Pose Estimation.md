@@ -1,8 +1,6 @@
 
 # Human Pose Estimation
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 ![](https://blog.kakaocdn.net/dn/bSCvu9/btsMa41TcZ3/a31lEp8qmwx4Se91IcPlv1/img.png)
 
 HPE가 무엇인지 궁금해서 직접 공부해보고 지원하기로 했다!!
@@ -633,7 +631,245 @@ np.max(heatmaps) 출력하여 Heatmap 값 확인
 
 ![](https://blog.kakaocdn.net/dn/FGFiA/btsL9QwZwk6/5aLLOS2oB28EyzTSLkh9ik/img.png)
 
-아무래도 학습반복을 2회만 해서 그런 것 같습니다. 다음시간에 시간을 더 투자해서 학습을 길게 해보겠습니다.
+아무래도 학습반복을 2회만 해서 그런 것 같습니다.
+
+![](https://blog.kakaocdn.net/dn/bAsHMv/btsMcrb1F02/L9h8KJFfONjCnRDTQEu4Ek/img.png)
+
+바로 횟수의 문제가 아님을 알 수 있었습니다.   
+  
+
+**현재 문제 분석**
+------------
+
+### 🔹 **Loss가 0.0010에서 줄어들지 않는 이유?**
+
+1️⃣ **모델이 너무 단순해서 복잡한 Pose Estimation을 학습하지 못할 가능성**  
+→ 현재 SimplePoseNet이 너무 간단해서, 더 깊은 네트워크가 필요할 수도 있음
+
+2️⃣ **학습률(Learning Rate)이 너무 커서 학습이 수렴하지 않음**  
+→ lr=1e-3은 Pose Estimation에서는 너무 클 수도 있음  
+→ **1e-4로 줄이면 학습이 더 안정적으로 진행될 가능성**
+
+3️⃣ **손실 함수(MSELoss)가 적절하지 않을 가능성**  
+→ MSELoss 대신 Smooth L1 Loss(HuberLoss) 또는 KLDivLoss 시도 가능
+
+4️⃣ **데이터 전처리(Preprocessing) 문제**  
+→ Heatmap이 너무 작은 크기(64x64)로 축소되면서 정보가 손실되었을 가능성
+
+조금 더 복잡한 모델을 구성해 보겠습니다.
+
+    import torchvision.models as models
+    
+    class ResNetPoseNet(nn.Module):
+        def __init__(self, num_keypoints=17):
+            super(ResNetPoseNet, self).__init__()
+            self.backbone = models.resnet18(pretrained=True)  # ResNet18 사용
+            self.backbone.fc = nn.Linear(512, num_keypoints * 2)  # 17개 관절 * (x, y)
+        
+        def forward(self, x):
+            x = self.backbone(x)
+            return x.view(-1, 17, 2)  # (batch, num_keypoints, 2)
+
+**비교 분석**
+---------
+
+모델레이어 개수파라미터 수(approx)특징
+
+**SimplePoseNet**
+
+4개 (Conv + BN + Deconv)
+
+**약 1~2M**
+
+단순한 CNN 구조, 작은 데이터셋에서 학습 가능
+
+**ResNetPoseNet (ResNet18 기반)**
+
+18개 이상 (ResNet18)
+
+**약 11M**
+
+강력한 Feature Extractor, 복잡한 데이터 학습 가능
+
+### **ResNet 기반 모델이 얼마나 복잡해졌는가?**
+
+1\. **SimplePoseNet** 은 작은 CNN 네트워크로, **4개의 주요 레이어**(Conv + BN + Deconv)만 존재  
+2\. **ResNetPoseNet** 은 **18개 이상의 레이어(ResNet18 구조)** 를 포함, **11M 이상의 파라미터**를 가짐  
+3\. ResNet은 **Skip Connection**을 포함 → **Gradient 소실 방지 & 더 깊은 특징 학습 가능**  
+4.기존 모델은 **Heatmap을 예측**했지만, **ResNetPoseNet은 직접 (x, y) 좌표를 예측  
+  
+**
+
+**ResNetPoseNet 적용 후 기대 효과**
+----------------------------
+
+모델학습 속도정확도(예상)특징
+
+**SimplePoseNet**
+
+빠름 (간단한 네트워크)
+
+낮음
+
+연산량이 작아 빠르지만 복잡한 포즈를 잘 못 찾을 가능성
+
+**ResNetPoseNet**
+
+느림 (복잡한 네트워크)
+
+높음
+
+ResNet 기반 강력한 특징 추출로 포즈를 정확하게 예측 가능
+
+1\. **ResNetPoseNet을 사용하면 더 정교한 포즈 인식 가능!**  
+2\. **다만 학습 속도는 다소 느려질 수 있음** (하지만 정확도 향상을 위해 충분한 Trade-off)
+
+![](https://blog.kakaocdn.net/dn/cl0dA6/btsMaBAzhL0/TbFskaFfyhaLIkNYkuaZIk/img.png)
+
+범위를 0~1로 설정하지 않아서 수치가 커졌지만 계속 로스값이 줄어들고 있음을 확인
+
+![](https://blog.kakaocdn.net/dn/cosnKW/btsMcdrzA4W/RjclDK9b8z19m81FMshdkk/img.png)
+
+추론을 완료했고 이제 결과를 시각화 해봅시다.
+
+    import cv2
+    import numpy as np
+    import torch
+    from PIL import Image
+    import matplotlib.pyplot as plt
+    
+    # 추론 결과 로드
+    predicted_keypoints = np.array([
+        [396.91986, 125.40627], [384.28397, 113.19349], [357.68848, 108.36974],
+        [378.0459, 100.082695], [147.31769, 72.80783], [439.58835, 154.01808],
+        [393.80966, 156.50447], [448.84732, 205.02428], [374.3959, 203.47243],
+        [439.41943, 224.10767], [366.96207, 216.2085], [441.38068, 272.10345],
+        [408.06808, 271.70392], [398.31348, 299.77182], [371.58908, 297.96512],
+        [379.52823, 351.85037], [355.95764, 350.56714]
+    ])
+    
+    # 원본 이미지 로드 
+    image_path = "경로"
+    image = cv2.imread(image_path)
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # OpenCV는 BGR이므로 RGB로 변환
+    
+    # 키포인트 그리기
+    for (x, y) in predicted_keypoints:
+        cv2.circle(image, (int(x), int(y)), 5, (255, 0, 0), -1)  # 🔵 파란색 점
+    
+    # 결과 이미지 출력
+    plt.figure(figsize=(8, 6))
+    plt.imshow(image)
+    plt.axis("off")
+    plt.title("Pose Estimation Keypoints")
+    plt.show()
+
+![](https://blog.kakaocdn.net/dn/clWCaN/btsMa9Q7TqJ/S74tMGMZkGFRdance6zHG0/img.png)
+
+정확도 이슈는 있지만 어느정도 적중률을 보인다는 것은 방향성을 잘 잡고 있다는 뜻으로 해석이 된다!!
+
+* * *
+
+**📌 추가 고도화 계획**
+----------------
+
+✅ **1\. 224x224 이미지 전처리 최적화**
+
+*   ResNet 모델은 기본적으로 **(224, 224)** 크기의 입력을 받도록 설계됨
+*   따라서 전처리에서 이미지 크기를 **(256, 256) → (224, 224)** 로 변경
+*   **수정 코드 (coco\_pose\_dataset.py)**
+
+    # coco_pose_dataset.py
+    
+    self.input_size = (224, 224)  # 기존 (256, 256) → (224, 224)
+    transforms.Resize(self.input_size)
+
+✅ **2\. 키포인트 정규화**
+
+*   원본 **픽셀 좌표를 (0~1) 범위로 정규화**하면 학습이 더 안정적
+*   **수정 코드 (coco\_pose\_dataset.py)**
+
+    # coco_pose_dataset.py
+    
+    keypoints[:, 0] /= img_info["width"]   # x 좌표 정규화
+    keypoints[:, 1] /= img_info["height"]  # y 좌표 정규화
+
+✅ **3\. 손실 함수 변경 (MSELoss → Smooth L1 Loss 사용)**
+
+*   MSELoss는 작은 차이에 민감해서 노이즈가 클 경우 SmoothL1Loss가 더 효과적
+*   **수정 코드 (train.py)**
+
+    # train.py
+    
+    criterion = nn.SmoothL1Loss()  # 기존 MSELoss() → SmoothL1Loss()
+
+✅ **4\. 학습 횟수 증가 (Epoch 7 → 15)**
+
+*   Loss가 계속 줄어드는 중이므로 추가 학습 진행
+*   **수정 코드 (train.py)**
+
+python
+
+    # train.py
+    
+    num_epochs = 15  # 기존 7 → 15
+
+✅ **5\. 키포인트 연결선 추가 (시각화 개선)**
+
+*   키포인트 점만 표시하는 것이 아니라 **관절을 선으로 연결**
+*   **수정 코드 (visualize.py)**
+
+python
+
+    # visualize.py
+    
+    # 키포인트 그리기
+    for (x, y) in predicted_keypoints:
+        cv2.circle(image, (int(x), int(y)), 5, (255, 0, 0), -1)  # 🔵 파란색 점
+    
+    # 관절 연결선 추가
+    for (i, j) in COCO_SKELETON:
+        pt1 = tuple(predicted_keypoints[i].astype(int))
+        pt2 = tuple(predicted_keypoints[j].astype(int))
+        cv2.line(image, pt1, pt2, (0, 255, 0), 2)  # 🟢 초록색 선으로 연결
+
+![](https://blog.kakaocdn.net/dn/nTFus/btsMbZUz2dm/vM3kwoY1hpKgMtzsnPnrnK/img.png)
+
+    # COCO Keypoint 연결 정보
+    COCO_SKELETON = [
+        (0, 1), (0, 2), (1, 3), (2, 4),  # 얼굴 (코-눈, 눈-귀 연결)
+        (5, 6), (5, 7), (6, 8), (7, 9), (8, 10),  # 상체 (어깨-팔꿈치-손목 연결)
+        (5, 11), (6, 12), (11, 12),  # 몸통 (어깨-골반 연결)
+        (11, 13), (12, 14), (13, 15), (14, 16)  # 다리 (골반-무릎-발목 연결)
+    ]
+
+* * *
+
+**결과**
+------
+
+![](https://blog.kakaocdn.net/dn/x1Ve8/btsMbsC4hBq/hTpkfO3oRc86kBZ7Fle410/img.png)
+
+![](https://blog.kakaocdn.net/dn/mJfHI/btsMbypC6A4/ph8lPx7KtKyfTc4fFAXVq0/img.png)
+
+![](https://blog.kakaocdn.net/dn/P3Xhb/btsMbIr0WPI/A76zgoVXDcdys6H7KQOiBK/img.png)
+
+![](https://blog.kakaocdn.net/dn/RM1Hi/btsMccGenNi/yMkCiTtxtXzthc1BLwijDk/img.png)
+
+![](https://blog.kakaocdn.net/dn/bha3qf/btsMaPMfGhT/THDtkSF9u7T2GAfjrPWp00/img.png)
+
+![](https://blog.kakaocdn.net/dn/Z1v9h/btsMcsaY4Ns/CAGSo4EMrz5Wzm8BfKa1U0/img.png)
+
+얼굴쪽은 정확히 잡아내지 못하고(그래도 일정한 규칙? 으로 튀는 것을 확인)  
+그 외에는 어느정도 형태를 잘 잡아내는 것 같습니다.
+
+로스율이 꾸준히 줄어드는데 15회 설정한 결과물인걸 감안하면
+
+약 30회 정도 추가 학습을 시킨다면 정확도가 상당히 올라갈 것으로 고려됩니다!
+
+그리고 얼굴쪽은 아무래도 coco데이터셋의 한계인 것으로 추정되기에 실습을 마치도록 하겠습니다!
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 47 }
 
