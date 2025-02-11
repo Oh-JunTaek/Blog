@@ -175,7 +175,7 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 
 #### '[\[STUDY\]](/category/%5BSTUDY%5D) > [\[아이디어 기획\]](/category/%5BSTUDY%5D/%5B%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EA%B8%B0%ED%9A%8D%5D)' 카테고리의 다른 글
 
-[\[SDP\]네트워크 이상 감지 시스템 프로젝트 초안](/44)  (2)
+[\[SDP\]네트워크 이상 감지 시스템 프로젝트 초안](/44)  (3)
 
 2025.02.04
 
