@@ -1,8 +1,6 @@
 
 # [코칭스터디]생성형 AI 활용 온라인 스터디
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 ![](https://blog.kakaocdn.net/dn/c1o6pn/btsLPmbzAts/sI5E8to331CiuIVQSneVO0/img.png)
 
 * * *
@@ -55,6 +53,8 @@
 저는 5번째 수강하는 부스트코스의 4주 온라인스터디인데요, 현직자와의 커피챗 등
 
 본인이 하고자 하는 의지만큼 얻어갈 수 있다고 생각합니다!!
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 43 }
 
