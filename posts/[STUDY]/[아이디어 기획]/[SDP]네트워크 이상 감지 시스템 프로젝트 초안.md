@@ -1,8 +1,6 @@
 
 # [SDP]네트워크 이상 감지 시스템 프로젝트 초안
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 프로젝트 계획서
 ========
 
@@ -185,6 +183,8 @@ _총 기간은 프로젝트 상황에 따라 조정 가능_
 *   **기술 문서 및 튜토리얼:** 각 모듈별 관련 자료
 *   **API 연동 관련 공식 문서:** OpenAI, Hugging Face 등
 *   **내부 문서:** 회의록, 코드 리뷰 문서 등
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 44 }
 
