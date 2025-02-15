@@ -22,4 +22,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href="https://eunmastudio.tistory.com/52">요즘 llm 관련 공부할 것 끼적이기</a></br><a href="https://eunmastudio.tistory.com/51">[SDP]네트워크 이상 감지 시스템 - 머신러닝</a></br><a href="https://eunmastudio.tistory.com/50">[SDP]네트워크 이상 감지 시스템 - data 편</a></br><a href="https://eunmastudio.tistory.com/49">TII-SSRC-23 데이터셋 논문 요약</a></br><a href="https://eunmastudio.tistory.com/48">TII-SSRC-23 데이터셋 논문 전문 번역</a></br>
+<a href="https://eunmastudio.tistory.com/53">[딥러닝의 모든것] - 딥러닝, 뉴런</a></br><a href="https://eunmastudio.tistory.com/52">요즘 llm 관련 공부할 것 끼적이기</a></br><a href="https://eunmastudio.tistory.com/51">[SDP]네트워크 이상 감지 시스템 - 머신러닝</a></br><a href="https://eunmastudio.tistory.com/50">[SDP]네트워크 이상 감지 시스템 - data 편</a></br><a href="https://eunmastudio.tistory.com/49">TII-SSRC-23 데이터셋 논문 요약</a></br>
