@@ -1,6 +1,8 @@
 
 # Human Pose Estimation 실습 계획서
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 0\. Human Pose Estimation 란?
 ----------------------------
 
@@ -162,8 +164,6 @@
     *   → 클라우드 서비스(Google Colab, Kaggle Notebooks 등)를 활용하거나 pre-trained 모델 사용
 *   **실시간 처리 성능 문제:**
     *   → 모델 경량화, 최적화 기법(quantization, pruning) 적용 고려
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 46 }
 
