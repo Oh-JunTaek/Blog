@@ -1,8 +1,6 @@
 
 # DeepSeek 알아보기 - 논문 전문 한글 번역
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 ![](https://blog.kakaocdn.net/dn/brI58H/btsL7des7dh/70tn5NQP0vS6C5LDbrAdtk/img.png)
 
 논문 출처 : [DEEPSEEK](https://arxiv.org/pdf/2501.12948)
@@ -1126,6 +1124,8 @@ MCTS 방식은 **문제를 여러 개의 작은 부분으로 나누고, 해결 �
 5️⃣ **향후 연구에서 다양한 태스크에 대한 최적화를 진행할 예정**
 
 * * *
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 45 }
 
