@@ -22,4 +22,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href="https://eunmastudio.tistory.com/54">[딥러닝의 모든것] - 활성화 함수</a></br><a href="https://eunmastudio.tistory.com/53">[딥러닝의 모든것] - 딥러닝, 뉴런</a></br><a href="https://eunmastudio.tistory.com/52">요즘 llm 관련 공부할 것 끼적이기</a></br><a href="https://eunmastudio.tistory.com/51">[SDP]네트워크 이상 감지 시스템 - 머신러닝</a></br><a href="https://eunmastudio.tistory.com/50">[SDP]네트워크 이상 감지 시스템 - data 편</a></br>
+<a href="https://eunmastudio.tistory.com/55">[학습 계획]야 너두 파인튜닝 할 수 있어</a></br><a href="https://eunmastudio.tistory.com/54">[딥러닝의 모든것] - 활성화 함수</a></br><a href="https://eunmastudio.tistory.com/53">[딥러닝의 모든것] - 딥러닝, 뉴런</a></br><a href="https://eunmastudio.tistory.com/52">요즘 llm 관련 공부할 것 끼적이기</a></br><a href="https://eunmastudio.tistory.com/51">[SDP]네트워크 이상 감지 시스템 - 머신러닝</a></br>
