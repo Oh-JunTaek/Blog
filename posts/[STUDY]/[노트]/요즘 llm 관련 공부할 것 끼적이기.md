@@ -1,8 +1,6 @@
 
 # 요즘 llm 관련 공부할 것 끼적이기
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 정리해야함
 
 * * *
@@ -96,6 +94,8 @@ vLLM은 **PagedAttention**이라는 기술을 사용해서 **VRAM을 절약하�
 *   **LoRA 같은 가벼운 파인튜닝을 적용할 때**
 *   **인퍼런스 + 파인튜닝을 하나의 프레임워크에서 해결하고 싶을 때**
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 52 }
 
 공유하기
@@ -105,6 +105,10 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 **EunmaStudio**
 
 #### '[\[STUDY\]](/category/%5BSTUDY%5D) > [\[노트\]](/category/%5BSTUDY%5D/%5B%EB%85%B8%ED%8A%B8%5D)' 카테고리의 다른 글
+
+[신경망에 대해서 공부하다가 든 아이디어 정리](/57)  (0)
+
+2025.02.25
 
 [깃 커밋 규칙](/33)  (0)
 
