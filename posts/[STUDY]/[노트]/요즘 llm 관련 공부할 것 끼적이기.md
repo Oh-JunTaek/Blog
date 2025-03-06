@@ -1,8 +1,6 @@
 
 # 요즘 llm 관련 공부할 것 끼적이기
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 정리해야함
 
 * * *
@@ -95,6 +93,8 @@ vLLM은 **PagedAttention**이라는 기술을 사용해서 **VRAM을 절약하�
 *   **LLaMA 3.2 1B 모델을 SFT하고 싶을 때**
 *   **LoRA 같은 가벼운 파인튜닝을 적용할 때**
 *   **인퍼런스 + 파인튜닝을 하나의 프레임워크에서 해결하고 싶을 때**
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 52 }
 
