@@ -1,6 +1,8 @@
 
 # [SDP]네트워크 이상 감지 시스템 - 머신러닝
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+
 데이터 편 보고오기 : [https://eunmastudio.tistory.com/50](https://eunmastudio.tistory.com/50)
 
  [\[SDP\]네트워크 이상 감지 시스템 - data 편
@@ -299,8 +301,6 @@ XGBoost는 tree\_method="gpu\_hist" 옵션을 사용하여 GPU 가속을 활성�
 *   지도 학습과 비지도 학습을 조합하여 **최적의 네트워크 이상 탐지 시스템 구축**
 *   최종적으로 **하이브리드 앙상블 모델**을 통해 탐지 성능을 극대화
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
-
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 51 }
 
 공유하기
@@ -311,7 +311,7 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 
 #### '[\[STUDY\]](/category/%5BSTUDY%5D) > [\[Team\_Project\]](/category/%5BSTUDY%5D/%5BTeam_Project%5D)' 카테고리의 다른 글
 
-[\[SDP\]네트워크 이상 감지 시스템 - data 편](/50)  (0)
+[\[SDP\]네트워크 이상 감지 시스템 - data 편](/50)  (1)
 
 2025.02.09
             
