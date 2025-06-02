@@ -94,7 +94,7 @@ vLLM은 **PagedAttention**이라는 기술을 사용해서 **VRAM을 절약하�
 *   **LoRA 같은 가벼운 파인튜닝을 적용할 때**
 *   **인퍼런스 + 파인튜닝을 하나의 프레임워크에서 해결하고 싶을 때**
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 52 }
 

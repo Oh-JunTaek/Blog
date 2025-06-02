@@ -1,6 +1,8 @@
 
 # TII-SSRC-23 데이터셋 논문 요약
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
+
 참고한 논문 : [https://arxiv.org/pdf/2310.10661](https://arxiv.org/pdf/2310.10661)
 
 프로젝트 계획서 : [https://eunmastudio.tistory.com/44](https://eunmastudio.tistory.com/44)
@@ -152,8 +154,6 @@ XGBoost
 *   **TII-SSRC-23 데이터셋은 최신 IDS 연구를 지원하는 강력한 데이터셋으로, 다양한 정상 및 악성 트래픽을 포함**
 *   **XGBoost, 익스트라 트리 모델이 지도 학습에서 높은 성능을 보였으며, Deep SVDD가 비지도 학습에서 우수한 결과를 기록**
 *   **향후 연구는 IoT, 클라우드 환경 확장 및 LLM 기반 IDS 탐지 모델 개발 방향으로 진행될 수 있음**
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 49 }
 

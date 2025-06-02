@@ -1,7 +1,7 @@
 
 # [SDP]네트워크 이상 감지 시스템 - data 편
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 프로젝트 초안 계획서 : [계획서](https://eunmastudio.tistory.com/44)
 

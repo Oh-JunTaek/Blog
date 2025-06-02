@@ -1,7 +1,7 @@
 
 # TII-SSRC-23 데이터셋 논문 전문 번역
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.ObserveAdsenseUnfilledState !== undefined){ ObserveAdsenseUnfilledState(); }
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 참고한 논문 : [https://arxiv.org/pdf/2310.10661](https://arxiv.org/pdf/2310.10661)
 
