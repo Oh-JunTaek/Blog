@@ -881,7 +881,7 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 
 #### '[\[STUDY\]](/category/%5BSTUDY%5D) > [\[Single\_Project\]](/category/%5BSTUDY%5D/%5BSingle_Project%5D)' 카테고리의 다른 글
 
-[\[CNN\] 필기체 숫자 분류 딥러닝 모델](/17)  (0)
+[\[CNN\] 필기체 숫자 분류 딥러닝 모델](/17)  (1)
 
 2024.10.14
             
