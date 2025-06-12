@@ -1,8 +1,6 @@
 
 # TII-SSRC-23 데이터셋 논문 전문 번역
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
-
 참고한 논문 : [https://arxiv.org/pdf/2310.10661](https://arxiv.org/pdf/2310.10661)
 
 프로젝트 계획서 : [https://eunmastudio.tistory.com/44](https://eunmastudio.tistory.com/44)
@@ -790,6 +788,8 @@ TII-SSRC-23 데이터셋은 IDS 연구를 위한 강력한 도구를 제공하�
 
 향후 연구자들은 **TII-SSRC-23 데이터셋을 활용하여 IDS 모델을 개선하고, 보다 현실적인 네트워크 보안 환경에 적용하는 연구를 수행**할 수 있습니다.  
 본 데이터셋은 연구 커뮤니티에서 자유롭게 활용할 수 있도록 **[Kaggle](https://kaggle.com/datasets/daniaherzalla/tii-ssrc-23)에서 제공**됩니다.
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 48 }
 
