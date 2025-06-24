@@ -111,14 +111,14 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/50)
     [[356670    578]
      [   462 129901]]
 
-![](https://blog.kakaocdn.net/dn/Q4GZS/btsMa5V4p71/q8dEAMjenq4W9Pf7bYwJD0/img.png)
+![](https://blog.kakaocdn.net/dna/Q4GZS/btsMa5V4p71/AAAAAAAAAAAAAAAAAAAAAH-ZiSKvpXhXj7jr4_K3RB9I0u7qKUXG16_gpSrRjA6P/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1751295599&allow_ip=&allow_referer=&signature=fqwoUtbCZQwOYXDiOrEJxtLMlp4%3D)
 
 * * *
 
 ### **랜덤 포레스트 Feature Importance 분석  
 **
 
-![](https://blog.kakaocdn.net/dn/kYiYD/btsMcz9ijXT/ZD8DAngqqgDYyk964KJXr0/img.png)
+![](https://blog.kakaocdn.net/dna/kYiYD/btsMcz9ijXT/AAAAAAAAAAAAAAAAAAAAAKBl7dkjWBfVgUaVhta5SutGiMBjic4tA9bQQzYrbRU0/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1751295599&allow_ip=&allow_referer=&signature=YF%2BSSIMB3dCagW5%2FwBI1iMvRo84%3D)
 
 **가장 중요한 5개 특성**
 
@@ -204,13 +204,13 @@ XGBoost는 tree\_method="gpu\_hist" 옵션을 사용하여 GPU 가속을 활성�
     [[356461    787]
      [   993 129370]]
 
-![](https://blog.kakaocdn.net/dn/bzQyPg/btsMcjMsD84/noqFKuwBN2GVUuPKAq52DK/img.png)
+![](https://blog.kakaocdn.net/dna/bzQyPg/btsMcjMsD84/AAAAAAAAAAAAAAAAAAAAAB1JAGTz0UmNV_BiXu3rluYHlVxqiEzKuqfxj09lmPHO/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1751295599&allow_ip=&allow_referer=&signature=DKJEQ1scmeW6VtUXTzNSGs1BOHs%3D)
 
 * * *
 
 ### **XGBoost Feature Importance 분석**
 
-![](https://blog.kakaocdn.net/dn/dxFmJI/btsMcP5abou/wzfDVCa67pi1CZsUw6o5Z0/img.png)
+![](https://blog.kakaocdn.net/dna/dxFmJI/btsMcP5abou/AAAAAAAAAAAAAAAAAAAAAF59RFenu1_tzaJmLM7Om-vIRTVjizuCUgnNIclNhSCp/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1751295599&allow_ip=&allow_referer=&signature=ldjjucEBS8j5%2B0F0lvqVdmC8uQI%3D)
 
 **가장 중요한 5개 특성**
 
@@ -233,7 +233,7 @@ XGBoost는 tree\_method="gpu\_hist" 옵션을 사용하여 GPU 가속을 활성�
 
 ### **두 모델 성능 비교 (Random Forest vs XGBoost)**
 
-![](https://blog.kakaocdn.net/dn/bKIrz4/btsMdrCRMx0/GFmylQ4J2wweXnQzYehGE0/img.png)
+![](https://blog.kakaocdn.net/dna/bKIrz4/btsMdrCRMx0/AAAAAAAAAAAAAAAAAAAAANrMv6autWhPZDVS27yEdEYkUS6nSBtg87dLFalsxRKU/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1751295599&allow_ip=&allow_referer=&signature=27XesP8SNdRFi%2F%2FykjAyt5EqVxE%3D)
 
 **결론:**
 
