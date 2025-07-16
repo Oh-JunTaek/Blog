@@ -1,6 +1,8 @@
 
 # Human Pose Estimation
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
+
 ![](https://blog.kakaocdn.net/dna/bSCvu9/btsMa41TcZ3/AAAAAAAAAAAAAAAAAAAAAF-vy04lv0VD2pAYy-nxEJQ0nBu95bXxukJy1isyNMYX/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=4RnVbUXRpK6XR0pMyju%2BXIRYeaY%3D)
 
 HPE가 무엇인지 궁금해서 직접 공부해보고 지원하기로 했다!!
@@ -868,8 +870,6 @@ python
 약 30회 정도 추가 학습을 시킨다면 정확도가 상당히 올라갈 것으로 고려됩니다!
 
 그리고 얼굴쪽은 아무래도 coco데이터셋의 한계인 것으로 추정되기에 실습을 마치도록 하겠습니다!
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 47 }
 
