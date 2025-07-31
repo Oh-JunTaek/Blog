@@ -1,7 +1,7 @@
 
 # Human Pose Estimation
 
-![](https://blog.kakaocdn.net/dna/bSCvu9/btsMa41TcZ3/AAAAAAAAAAAAAAAAAAAAAF-vy04lv0VD2pAYy-nxEJQ0nBu95bXxukJy1isyNMYX/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=4RnVbUXRpK6XR0pMyju%2BXIRYeaY%3D)
+![](https://blog.kakaocdn.net/dna/bSCvu9/btsMa41TcZ3/AAAAAAAAAAAAAAAAAAAAAF-vy04lv0VD2pAYy-nxEJQ0nBu95bXxukJy1isyNMYX/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=WH7nZF7N9o6tAMVJgKenPKHelQI%3D)
 
 HPE가 무엇인지 궁금해서 직접 공부해보고 지원하기로 했다!!
 
@@ -26,12 +26,12 @@ HPE가 무엇인지 궁금해서 직접 공부해보고 지원하기로 했다!!
 
 * * *
 
-![](https://blog.kakaocdn.net/dna/QmXOw/btsL88p6WYw/AAAAAAAAAAAAAAAAAAAAAHwFZVDOpTxyQHA5Uoh5dU836v_Y10565xd4woIzgeEg/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=x0hyEBPybhvHYwaLkMNnbFubMao%3D)
+![](https://blog.kakaocdn.net/dna/QmXOw/btsL88p6WYw/AAAAAAAAAAAAAAAAAAAAAHwFZVDOpTxyQHA5Uoh5dU836v_Y10565xd4woIzgeEg/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=MK0cRLjVE1ss%2B%2B4NCna0W0Cg9%2Bg%3D)
 
 그러나 데이터셋 다운로드가 쉽지는 않습니다... 검사 결과 http와 https사이의 보안 문제인 듯 합니다.  
 그래서 다운로드 링크를 직접 변경해서 설치를 시작! : [https://images.cocodataset.org/zips/train2017.zip](https://images.cocodataset.org/zips/train2017.zip)
 
-![](https://blog.kakaocdn.net/dna/bmvCLK/btsL7dNulyE/AAAAAAAAAAAAAAAAAAAAAM3DcaFfCoB4n4SNzdBbqUdAJH-nnvC5leRvs4-4wdmZ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=zr0203opGh363km1S1g6oaDLVSE%3D)
+![](https://blog.kakaocdn.net/dna/bmvCLK/btsL7dNulyE/AAAAAAAAAAAAAAAAAAAAAM3DcaFfCoB4n4SNzdBbqUdAJH-nnvC5leRvs4-4wdmZ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=GgR56gg1xmww7%2Fo0VlDES5zrgnQ%3D)
 
 마찬가지로 검증 데이터셋도 같은 방식으로 설치 : [https://images.cocodataset.org/zips/val2017.zip](http://images.cocodataset.org/zips/val2017.zip)
 
@@ -420,11 +420,11 @@ pycocotools를 이용한 키포인트 어노테이션 로드 흐름
 
 cuda를 인식하지 못해서!!!
 
-![](https://blog.kakaocdn.net/dna/bEh1xM/btsL9RvQJSg/AAAAAAAAAAAAAAAAAAAAAIB_YGcoY-Ia6DashhjjDbHZtiB4ywOOWOyC6lV-KW1l/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=fk1Khd4BMLtGiojLDfLVOOHtlwY%3D)
+![](https://blog.kakaocdn.net/dna/bEh1xM/btsL9RvQJSg/AAAAAAAAAAAAAAAAAAAAAIB_YGcoY-Ia6DashhjjDbHZtiB4ywOOWOyC6lV-KW1l/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=b0kPIueyQk2MeqhN7elzgcbGNzY%3D)
 
 cuda설치를 하고 왔습니다.
 
-![](https://blog.kakaocdn.net/dna/sytXK/btsMavlmiTW/AAAAAAAAAAAAAAAAAAAAAAJ7pXVUvTWIkNdO6u9HQ8RKOXvtcrfJxhrf4qHqtaNo/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=3TcpY0SDUL25CfpgxnhEXW9Ii0I%3D)
+![](https://blog.kakaocdn.net/dna/sytXK/btsMavlmiTW/AAAAAAAAAAAAAAAAAAAAAAJ7pXVUvTWIkNdO6u9HQ8RKOXvtcrfJxhrf4qHqtaNo/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=RKBjZQOb8cK%2FM1Kip8lgszV3o7Y%3D)
 
 성공적으로 그래픽카드를 괴롭히기 시작했습니다.
 
@@ -476,7 +476,7 @@ cuda설치를 하고 왔습니다.
     
     print("✅ Inference completed! Heatmap shape:", heatmaps.shape)
 
-![](https://blog.kakaocdn.net/dna/DHzWD/btsL8YoXaAD/AAAAAAAAAAAAAAAAAAAAAGijo-ZMmKHdKk6u45xKrfgc6NvtcSj8jDEXlDEkzjXf/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=bQ2pD0JJpzjKQb6Cyzic5346RYQ%3D)
+![](https://blog.kakaocdn.net/dna/DHzWD/btsL8YoXaAD/AAAAAAAAAAAAAAAAAAAAAGijo-ZMmKHdKk6u45xKrfgc6NvtcSj8jDEXlDEkzjXf/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=Os7GkKrGXrPMln02ECAMs%2BmA6a8%3D)
 
 * * *
 
@@ -554,7 +554,7 @@ cuda설치를 하고 왔습니다.
 #### **1\. 모델 예측값이 전부 0**  
 np.max(heatmaps) 출력하여 Heatmap 값 확인
 
-![](https://blog.kakaocdn.net/dna/dXJEt6/btsL9n9zzBU/AAAAAAAAAAAAAAAAAAAAADUHoHfBARctrbQOuQsLluS9KZb8DIHE-MUb4DKKE4ra/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=4cwNCl0wM7mTlZ4sHnKS%2B8n0Uaw%3D)
+![](https://blog.kakaocdn.net/dna/dXJEt6/btsL9n9zzBU/AAAAAAAAAAAAAAAAAAAAADUHoHfBARctrbQOuQsLluS9KZb8DIHE-MUb4DKKE4ra/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=mMSjerbajQHooxnaxy3Ny5ZzFRE%3D)
 
 🔹 **현재 모델이 예측한 Heatmap 값이 너무 작아서, 키포인트를 찾기 어려움**  
 🔹 **Heatmap을 보정하여, 키포인트를 더 뚜렷하게 찾도록 개선해야 함**현재 np.argmax(heatmap)을 사용할 때, **값이 작아서 강한 신호를 찾기 어려움**  
@@ -572,7 +572,7 @@ np.max(heatmaps) 출력하여 Heatmap 값 확인
             x = int(x * scale_x)
             y = int(y * scale_y)
 
-![](https://blog.kakaocdn.net/dna/ctFYoM/btsMaT0xg8c/AAAAAAAAAAAAAAAAAAAAAPaVDvQA2Kl6ZHSUZfqcB1rptg3TJ1s-pqSuOLjuCKHB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=jYhAr760zoUiAKdwd1c7fHI1Na4%3D)
+![](https://blog.kakaocdn.net/dna/ctFYoM/btsMaT0xg8c/AAAAAAAAAAAAAAAAAAAAAPaVDvQA2Kl6ZHSUZfqcB1rptg3TJ1s-pqSuOLjuCKHB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=kIOon4jTuwfZOX2cY%2BSR6P6QxNA%3D)
 
 해결하지 못했다...  
   
@@ -602,9 +602,9 @@ np.max(heatmaps) 출력하여 Heatmap 값 확인
     img_keypoints = sorted(img_keypoints, key=lambda x: x[1], reverse=True)[:5]
     print("키포인트 많은 상위 5개 이미지:", img_keypoints)
 
-![](https://blog.kakaocdn.net/dna/ttrCd/btsMalJ0A1p/AAAAAAAAAAAAAAAAAAAAAIx8LO9Ski1lTpMfAkkIrY8hWWqBMdGu_VaO0yniFsji/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=kTLdT%2FTwtF3e3cDgLFOWjBDhCKQ%3D)
+![](https://blog.kakaocdn.net/dna/ttrCd/btsMalJ0A1p/AAAAAAAAAAAAAAAAAAAAAIx8LO9Ski1lTpMfAkkIrY8hWWqBMdGu_VaO0yniFsji/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=72ShyFxsBHclW08XhqGk5YsUkjY%3D)
 
-![](https://blog.kakaocdn.net/dna/Q48Uq/btsL9pl3xs2/AAAAAAAAAAAAAAAAAAAAAAQ7jfV00yMjcf_CPpH2DQWalW56unADFO0I6v0SlG7h/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=VcYjeelUHDANVWhWdPEYB0pfqNo%3D)
+![](https://blog.kakaocdn.net/dna/Q48Uq/btsL9pl3xs2/AAAAAAAAAAAAAAAAAAAAAAQ7jfV00yMjcf_CPpH2DQWalW56unADFO0I6v0SlG7h/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=WEccjoBZULpKXhDGzTJFam6H0ao%3D)
 
 하지만 여전히 잘 찾아내지 못하고 있습니다.  
   
@@ -629,11 +629,11 @@ np.max(heatmaps) 출력하여 Heatmap 값 확인
         print(f"{name}: {param.mean().item():.6f}")
         break  # 너무 길어지지 않도록 첫 번째 레이어만 출력
 
-![](https://blog.kakaocdn.net/dna/FGFiA/btsL9QwZwk6/AAAAAAAAAAAAAAAAAAAAAJtsa5esqjG3TMMhZ63E-Sq4sjjJD89Dgp9HPlmgdRet/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=8WwZUcpQK3G2FhBLOZO34mtfVtU%3D)
+![](https://blog.kakaocdn.net/dna/FGFiA/btsL9QwZwk6/AAAAAAAAAAAAAAAAAAAAAJtsa5esqjG3TMMhZ63E-Sq4sjjJD89Dgp9HPlmgdRet/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=k6A4RrCfhOhwZxbALA3xJxWUcmM%3D)
 
 아무래도 학습반복을 2회만 해서 그런 것 같습니다.
 
-![](https://blog.kakaocdn.net/dna/bAsHMv/btsMcrb1F02/AAAAAAAAAAAAAAAAAAAAAIwNmcGt4hxiMmD6JOdvQqCqwWOVkgqZi8ZqIs2LyewD/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=bzQmZKwcBqmMOcCDep2YX6j0Etg%3D)
+![](https://blog.kakaocdn.net/dna/bAsHMv/btsMcrb1F02/AAAAAAAAAAAAAAAAAAAAAIwNmcGt4hxiMmD6JOdvQqCqwWOVkgqZi8ZqIs2LyewD/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=FHFdVH9k1BIKbDmgoq4wP6msamo%3D)
 
 바로 횟수의 문제가 아님을 알 수 있었습니다.   
   
@@ -724,11 +724,11 @@ ResNet 기반 강력한 특징 추출로 포즈를 정확하게 예측 가능
 1\. **ResNetPoseNet을 사용하면 더 정교한 포즈 인식 가능!**  
 2\. **다만 학습 속도는 다소 느려질 수 있음** (하지만 정확도 향상을 위해 충분한 Trade-off)
 
-![](https://blog.kakaocdn.net/dna/cl0dA6/btsMaBAzhL0/AAAAAAAAAAAAAAAAAAAAAAvbk9tze-8K-9y3xrSAz1CYGMZBl1P3UcO6Oh8VRMtx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=Csx0nRI5n6zHWfzkhyXaACQgtX8%3D)
+![](https://blog.kakaocdn.net/dna/cl0dA6/btsMaBAzhL0/AAAAAAAAAAAAAAAAAAAAAAvbk9tze-8K-9y3xrSAz1CYGMZBl1P3UcO6Oh8VRMtx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=qJ13QbJxF9sw6Rx0xQjvVmo1DiE%3D)
 
 범위를 0~1로 설정하지 않아서 수치가 커졌지만 계속 로스값이 줄어들고 있음을 확인
 
-![](https://blog.kakaocdn.net/dna/cosnKW/btsMcdrzA4W/AAAAAAAAAAAAAAAAAAAAAArzucJaD_prLLYWSZyOTuFz8p-i0ckcPNXWEPx1kEvR/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=W3cCroC5HNJ0tlFXkl5QoKKQWCk%3D)
+![](https://blog.kakaocdn.net/dna/cosnKW/btsMcdrzA4W/AAAAAAAAAAAAAAAAAAAAAArzucJaD_prLLYWSZyOTuFz8p-i0ckcPNXWEPx1kEvR/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=1ges6FMgY4HjcUwhXlFczvGk0tk%3D)
 
 추론을 완료했고 이제 결과를 시각화 해봅시다.
 
@@ -764,7 +764,7 @@ ResNet 기반 강력한 특징 추출로 포즈를 정확하게 예측 가능
     plt.title("Pose Estimation Keypoints")
     plt.show()
 
-![](https://blog.kakaocdn.net/dna/clWCaN/btsMa9Q7TqJ/AAAAAAAAAAAAAAAAAAAAAMAmaWTJt8KzY2SkO34x0_cBCZgvXIJcSr7MOoeoEy-H/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=Uc6oODcd0CvQPdVmJwxaVRAvDzg%3D)
+![](https://blog.kakaocdn.net/dna/clWCaN/btsMa9Q7TqJ/AAAAAAAAAAAAAAAAAAAAAMAmaWTJt8KzY2SkO34x0_cBCZgvXIJcSr7MOoeoEy-H/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=Krtko3rHlvyBg3Ofzf%2FQkEcZoKo%3D)
 
 정확도 이슈는 있지만 어느정도 적중률을 보인다는 것은 방향성을 잘 잡고 있다는 뜻으로 해석이 된다!!
 
@@ -833,7 +833,7 @@ python
         pt2 = tuple(predicted_keypoints[j].astype(int))
         cv2.line(image, pt1, pt2, (0, 255, 0), 2)  # 🟢 초록색 선으로 연결
 
-![](https://blog.kakaocdn.net/dna/nTFus/btsMbZUz2dm/AAAAAAAAAAAAAAAAAAAAAJ5o9on-BLUr4oh8kFjbxVi3a_14Ufw-61WVP1rwasIB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=Gwi5KKFx%2BmQX0pv%2FddluOa9ew6Y%3D)
+![](https://blog.kakaocdn.net/dna/nTFus/btsMbZUz2dm/AAAAAAAAAAAAAAAAAAAAAJ5o9on-BLUr4oh8kFjbxVi3a_14Ufw-61WVP1rwasIB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=P10zy0HI6qrglMk06IPgnA3slq8%3D)
 
     # COCO Keypoint 연결 정보
     COCO_SKELETON = [
@@ -848,17 +848,17 @@ python
 **결과**
 ------
 
-![](https://blog.kakaocdn.net/dna/x1Ve8/btsMbsC4hBq/AAAAAAAAAAAAAAAAAAAAAOMEgEqkPGT6VD2k3AGErTxs1QNGhISCNXxN1gaaHlpx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=vwQOheG2A41Iecp0gpJe%2BRuWMJU%3D)
+![](https://blog.kakaocdn.net/dna/x1Ve8/btsMbsC4hBq/AAAAAAAAAAAAAAAAAAAAAOMEgEqkPGT6VD2k3AGErTxs1QNGhISCNXxN1gaaHlpx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=UuHOQDkmSNSBykrxfUdAUtNEWkg%3D)
 
-![](https://blog.kakaocdn.net/dna/mJfHI/btsMbypC6A4/AAAAAAAAAAAAAAAAAAAAAM3UKGY_2U57v8q5kcXNdjP8I9CKc3dxp1lAL338XDCd/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=vpDLbMUB4iUVkjSLVAjvFJWVBr4%3D)
+![](https://blog.kakaocdn.net/dna/mJfHI/btsMbypC6A4/AAAAAAAAAAAAAAAAAAAAAM3UKGY_2U57v8q5kcXNdjP8I9CKc3dxp1lAL338XDCd/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=rp2Nhbbcgn3JwJzga6nHEia2kKI%3D)
 
-![](https://blog.kakaocdn.net/dna/P3Xhb/btsMbIr0WPI/AAAAAAAAAAAAAAAAAAAAAArrRUJC-8jyyKjyA9lNt1DrYF_fkXz7SgLnIyCaFOnd/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=sukTQZyHh63zcJfoqhVOJ3KsS%2BM%3D)
+![](https://blog.kakaocdn.net/dna/P3Xhb/btsMbIr0WPI/AAAAAAAAAAAAAAAAAAAAAArrRUJC-8jyyKjyA9lNt1DrYF_fkXz7SgLnIyCaFOnd/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=TgJ2EJxQ5aMp6EMOVjSl8YsEX74%3D)
 
-![](https://blog.kakaocdn.net/dna/RM1Hi/btsMccGenNi/AAAAAAAAAAAAAAAAAAAAAN-KFzgcxqpOlDMAAzkn1FEMbUeRoidbsRAOQcPlazxH/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=%2FD89dY2qoWKXEOaiOpVuGgJUXn0%3D)
+![](https://blog.kakaocdn.net/dna/RM1Hi/btsMccGenNi/AAAAAAAAAAAAAAAAAAAAAN-KFzgcxqpOlDMAAzkn1FEMbUeRoidbsRAOQcPlazxH/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=9abirO5lBkfqBp9J3aNXhB1ldnc%3D)
 
-![](https://blog.kakaocdn.net/dna/bha3qf/btsMaPMfGhT/AAAAAAAAAAAAAAAAAAAAANIuUQzq96cEjlz2qbzbLC6PlLDDtkj3QIJmAyJml-wK/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=%2BZm8kK%2FLn%2Bz9DhDAcfdT0oMxIs0%3D)
+![](https://blog.kakaocdn.net/dna/bha3qf/btsMaPMfGhT/AAAAAAAAAAAAAAAAAAAAANIuUQzq96cEjlz2qbzbLC6PlLDDtkj3QIJmAyJml-wK/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=ahZEtsPd5sUTqXtBGFWFoBiCOro%3D)
 
-![](https://blog.kakaocdn.net/dna/Z1v9h/btsMcsaY4Ns/AAAAAAAAAAAAAAAAAAAAAGmSe4cfQwwaLfdnHCdtFZR0stR5e9ZKvHdeEkyWtuX6/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=VDUfwAcBZ47jZk9OXUY5vmyVLCk%3D)
+![](https://blog.kakaocdn.net/dna/Z1v9h/btsMcsaY4Ns/AAAAAAAAAAAAAAAAAAAAAGmSe4cfQwwaLfdnHCdtFZR0stR5e9ZKvHdeEkyWtuX6/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=pBjPEZvhs4ZerHBOQLpVo%2B4HMus%3D)
 
 얼굴쪽은 정확히 잡아내지 못하고(그래도 일정한 규칙? 으로 튀는 것을 확인)  
 그 외에는 어느정도 형태를 잘 잡아내는 것 같습니다.
