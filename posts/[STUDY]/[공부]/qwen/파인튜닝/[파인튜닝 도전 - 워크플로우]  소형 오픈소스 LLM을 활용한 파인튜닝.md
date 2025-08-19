@@ -133,6 +133,10 @@ window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.t
 
 #### '[\[STUDY\]](/category/%5BSTUDY%5D) > [\[공부\]](/category/%5BSTUDY%5D/%5B%EA%B3%B5%EB%B6%80%5D)' 카테고리의 다른 글
 
+[\[파인튜닝\] Qwen 1.5B(4bit) LoRA로 파인튜닝](/59)  (0)
+
+2025.08.19
+
 [\[딥러닝의 모든것\] - 활성화 함수](/54)  (0)
 
 2025.02.16
