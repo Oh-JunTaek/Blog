@@ -109,14 +109,14 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/50)
     [[356670    578]
      [   462 129901]]
 
-![](https://blog.kakaocdn.net/dna/Q4GZS/btsMa5V4p71/AAAAAAAAAAAAAAAAAAAAAH-ZiSKvpXhXj7jr4_K3RB9I0u7qKUXG16_gpSrRjA6P/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=a%2F4mbiNm38GiXx7Y5emj5Is0rHI%3D)
+![](https://blog.kakaocdn.net/dna/Q4GZS/btsMa5V4p71/AAAAAAAAAAAAAAAAAAAAAH-ZiSKvpXhXj7jr4_K3RB9I0u7qKUXG16_gpSrRjA6P/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1759244399&allow_ip=&allow_referer=&signature=uDTbBiV57mTDwqSWv3tkfz9Hn6Y%3D)
 
 * * *
 
 ### **랜덤 포레스트 Feature Importance 분석  
 **
 
-![](https://blog.kakaocdn.net/dna/kYiYD/btsMcz9ijXT/AAAAAAAAAAAAAAAAAAAAAKBl7dkjWBfVgUaVhta5SutGiMBjic4tA9bQQzYrbRU0/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=Bs79zfjw%2F0FEbVEqqYQuX4thYXs%3D)
+![](https://blog.kakaocdn.net/dna/kYiYD/btsMcz9ijXT/AAAAAAAAAAAAAAAAAAAAAKBl7dkjWBfVgUaVhta5SutGiMBjic4tA9bQQzYrbRU0/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1759244399&allow_ip=&allow_referer=&signature=o%2FCHfDdwp3FnnG2EbtOju0ZCQa0%3D)
 
 **가장 중요한 5개 특성**
 
@@ -202,13 +202,13 @@ XGBoost는 tree\_method="gpu\_hist" 옵션을 사용하여 GPU 가속을 활성�
     [[356461    787]
      [   993 129370]]
 
-![](https://blog.kakaocdn.net/dna/bzQyPg/btsMcjMsD84/AAAAAAAAAAAAAAAAAAAAAB1JAGTz0UmNV_BiXu3rluYHlVxqiEzKuqfxj09lmPHO/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=NSLQe0Nw2t2Bdp7jaRblQGrkikk%3D)
+![](https://blog.kakaocdn.net/dna/bzQyPg/btsMcjMsD84/AAAAAAAAAAAAAAAAAAAAAB1JAGTz0UmNV_BiXu3rluYHlVxqiEzKuqfxj09lmPHO/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1759244399&allow_ip=&allow_referer=&signature=fewZ6xhTwDUL6ZLwpRVymYBC7VQ%3D)
 
 * * *
 
 ### **XGBoost Feature Importance 분석**
 
-![](https://blog.kakaocdn.net/dna/dxFmJI/btsMcP5abou/AAAAAAAAAAAAAAAAAAAAAF59RFenu1_tzaJmLM7Om-vIRTVjizuCUgnNIclNhSCp/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=LCU7aCbIOYuDPrCAG6j0DZcO2p8%3D)
+![](https://blog.kakaocdn.net/dna/dxFmJI/btsMcP5abou/AAAAAAAAAAAAAAAAAAAAAF59RFenu1_tzaJmLM7Om-vIRTVjizuCUgnNIclNhSCp/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1759244399&allow_ip=&allow_referer=&signature=%2BeiiK%2FMCAwBFbYwPPnutH5%2Bbcec%3D)
 
 **가장 중요한 5개 특성**
 
@@ -231,7 +231,7 @@ XGBoost는 tree\_method="gpu\_hist" 옵션을 사용하여 GPU 가속을 활성�
 
 ### **두 모델 성능 비교 (Random Forest vs XGBoost)**
 
-![](https://blog.kakaocdn.net/dna/bKIrz4/btsMdrCRMx0/AAAAAAAAAAAAAAAAAAAAANrMv6autWhPZDVS27yEdEYkUS6nSBtg87dLFalsxRKU/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=IbukgWdZHmstOn%2FUlZYFrXg%2BQAw%3D)
+![](https://blog.kakaocdn.net/dna/bKIrz4/btsMdrCRMx0/AAAAAAAAAAAAAAAAAAAAANrMv6autWhPZDVS27yEdEYkUS6nSBtg87dLFalsxRKU/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1759244399&allow_ip=&allow_referer=&signature=9tECq90c2HA4cuQYovh6sQXIEzg%3D)
 
 **결론:**
 
