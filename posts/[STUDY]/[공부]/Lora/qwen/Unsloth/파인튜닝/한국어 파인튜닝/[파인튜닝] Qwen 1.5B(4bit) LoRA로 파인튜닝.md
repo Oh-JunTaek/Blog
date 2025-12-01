@@ -1,9 +1,7 @@
 
 # [파인튜닝] Qwen 1.5B(4bit) LoRA로 파인튜닝
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
-
-![](https://blog.kakaocdn.net/dna/mcCM5/btsPWoDmdrB/AAAAAAAAAAAAAAAAAAAAAHpHXWri2U5NZhZsRbpoJ7A1KLkWDp79iUehAV6xSEft/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1764514799&allow_ip=&allow_referer=&signature=5M6W6MkKxZKn9WBa8LYfvxs%2Bxp8%3D)
+![](https://blog.kakaocdn.net/dna/mcCM5/btsPWoDmdrB/AAAAAAAAAAAAAAAAAAAAAHpHXWri2U5NZhZsRbpoJ7A1KLkWDp79iUehAV6xSEft/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=wK1JUUlf2HgUc7WjpvCgweOzU94%3D)
 
 들어가기 전에
 -------
@@ -61,9 +59,9 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
 
 *   GPU: T4 16GB(권장), Python 3.10+
 
-![](https://blog.kakaocdn.net/dna/NiTq5/btsPUhSR9Iv/AAAAAAAAAAAAAAAAAAAAAHLmww8rTljBOA15uvjjco2udMEig5FvlOJrW8YlV355/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1764514799&allow_ip=&allow_referer=&signature=abGANX6%2FusTVDvWY3E5bkuuci4o%3D)
+![](https://blog.kakaocdn.net/dna/NiTq5/btsPUhSR9Iv/AAAAAAAAAAAAAAAAAAAAAHLmww8rTljBOA15uvjjco2udMEig5FvlOJrW8YlV355/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=nEvEaHj2qlwcuYYVyaPcFRpfIDc%3D)
 
-![](https://blog.kakaocdn.net/dna/sICQu/btsPVm66bJc/AAAAAAAAAAAAAAAAAAAAAB1PKjsf9x3yWyL1SAeVhRKSf3YeqRZELI-RqOhrSaRN/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1764514799&allow_ip=&allow_referer=&signature=W0ZdkfL9m5I%2FMeF%2BU%2FdhGhnTrdw%3D)
+![](https://blog.kakaocdn.net/dna/sICQu/btsPVm66bJc/AAAAAAAAAAAAAAAAAAAAAB1PKjsf9x3yWyL1SAeVhRKSf3YeqRZELI-RqOhrSaRN/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=%2F59wNpjusf19Bt4TE8iwBOEVlvw%3D)
 
  T4를 사용하여 진행한 모습
 
@@ -131,7 +129,7 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
     "gate\_proj","up\_proj","down\_proj",    \# FFN 투영층
     
 
-![](https://blog.kakaocdn.net/dna/bMyc7J/btsPXBIWk26/AAAAAAAAAAAAAAAAAAAAAD43ifIwEx87fVGZsEDetdZVDcUU41XHVuSSuBMPgWUd/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1764514799&allow_ip=&allow_referer=&signature=oMTMPfn5ywhSKx3OLv4eyIj%2BGpc%3D)
+![](https://blog.kakaocdn.net/dna/bMyc7J/btsPXBIWk26/AAAAAAAAAAAAAAAAAAAAAD43ifIwEx87fVGZsEDetdZVDcUU41XHVuSSuBMPgWUd/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=dJqO9iWh66O40fPEzLJqn%2Buor5E%3D)
 
 * * *
 
@@ -236,13 +234,13 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
     print(f"GPU = {gpu_stats.name}. Max memory = {max_memory} GB.")
     print(f"{start_gpu_memory} GB of memory reserved.")
 
-![](https://blog.kakaocdn.net/dna/n96fQ/btsPYOufbgq/AAAAAAAAAAAAAAAAAAAAAOvTc1vRPgUTbOgegr1Zwk4bDT7CGHkJqg3TBNKHzThB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1764514799&allow_ip=&allow_referer=&signature=kHqmUcp6%2BVwtbBpohK8X56PZ5uA%3D)
+![](https://blog.kakaocdn.net/dna/n96fQ/btsPYOufbgq/AAAAAAAAAAAAAAAAAAAAAOvTc1vRPgUTbOgegr1Zwk4bDT7CGHkJqg3TBNKHzThB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=Ix2eDe8n16H%2BecheyQSmVFrg9BU%3D)
 
 *   그리고 train 진행
 
     trainer_stats = trainer.train()
 
-![](https://blog.kakaocdn.net/dna/NIncU/btsPVbYKlmc/AAAAAAAAAAAAAAAAAAAAAJy6Tq-Xa2OXc517AAZWTXSZ_5J-T4zTlmhnCM95TfHA/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1764514799&allow_ip=&allow_referer=&signature=NvbxsXRWFPcwNxjkOgVJtWENCPI%3D)
+![](https://blog.kakaocdn.net/dna/NIncU/btsPVbYKlmc/AAAAAAAAAAAAAAAAAAAAAJy6Tq-Xa2OXc517AAZWTXSZ_5J-T4zTlmhnCM95TfHA/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=XCS4R4Ce79%2F6W7IORqEzG%2BqTZ88%3D)
 
 *   최종 메모리 및 시간 통계 확인
 
@@ -259,7 +257,7 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
     print(f"피크 예약 메모리/최대 메모리: {used_percentage} %")
     print(f"학습 증가분/최대 메모리: {lora_percentage} %")
 
-![](https://blog.kakaocdn.net/dna/V6S6d/btsPWj3mgBX/AAAAAAAAAAAAAAAAAAAAANZMqALdJXIiM2XtV3Nuu3bKIMXzrqPMfrhIC8m2IoAq/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1764514799&allow_ip=&allow_referer=&signature=OjLUHsVQ2I8IIBUlf0PBni3lfK4%3D)
+![](https://blog.kakaocdn.net/dna/V6S6d/btsPWj3mgBX/AAAAAAAAAAAAAAAAAAAAANZMqALdJXIiM2XtV3Nuu3bKIMXzrqPMfrhIC8m2IoAq/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=jn%2BbkIQiHTLD4uIfnXcs8lAEduM%3D)
 
 * * *
 
@@ -356,6 +354,8 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
 *   트러블슈팅 FAQ
 *   파인튜닝 전/후 테스트
 *   확장 아이디어
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 59 }
 
