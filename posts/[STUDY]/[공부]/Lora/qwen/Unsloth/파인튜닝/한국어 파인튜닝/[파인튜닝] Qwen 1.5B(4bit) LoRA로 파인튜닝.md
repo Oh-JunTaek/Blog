@@ -3,7 +3,7 @@
 
 (adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
-![](https://blog.kakaocdn.net/dna/mcCM5/btsPWoDmdrB/AAAAAAAAAAAAAAAAAAAAAHpHXWri2U5NZhZsRbpoJ7A1KLkWDp79iUehAV6xSEft/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=wK1JUUlf2HgUc7WjpvCgweOzU94%3D)
+![](https://blog.kakaocdn.net/dna/mcCM5/btsPWoDmdrB/AAAAAAAAAAAAAAAAAAAAAHpHXWri2U5NZhZsRbpoJ7A1KLkWDp79iUehAV6xSEft/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=LE%2B7889WHj%2BirmAjvZwfVOalmGg%3D)
 
 들어가기 전에
 -------
@@ -61,9 +61,9 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
 
 *   GPU: T4 16GB(권장), Python 3.10+
 
-![](https://blog.kakaocdn.net/dna/NiTq5/btsPUhSR9Iv/AAAAAAAAAAAAAAAAAAAAAHLmww8rTljBOA15uvjjco2udMEig5FvlOJrW8YlV355/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=nEvEaHj2qlwcuYYVyaPcFRpfIDc%3D)
+![](https://blog.kakaocdn.net/dna/NiTq5/btsPUhSR9Iv/AAAAAAAAAAAAAAAAAAAAAHLmww8rTljBOA15uvjjco2udMEig5FvlOJrW8YlV355/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=IV4VkdgMDl9VTv7%2BD7MM%2Br6Tlvo%3D)
 
-![](https://blog.kakaocdn.net/dna/sICQu/btsPVm66bJc/AAAAAAAAAAAAAAAAAAAAAB1PKjsf9x3yWyL1SAeVhRKSf3YeqRZELI-RqOhrSaRN/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=%2F59wNpjusf19Bt4TE8iwBOEVlvw%3D)
+![](https://blog.kakaocdn.net/dna/sICQu/btsPVm66bJc/AAAAAAAAAAAAAAAAAAAAAB1PKjsf9x3yWyL1SAeVhRKSf3YeqRZELI-RqOhrSaRN/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=ktW1qtXA%2BwO3Z8f7gF7DPv0YIqY%3D)
 
  T4를 사용하여 진행한 모습
 
@@ -131,7 +131,7 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
     "gate\_proj","up\_proj","down\_proj",    \# FFN 투영층
     
 
-![](https://blog.kakaocdn.net/dna/bMyc7J/btsPXBIWk26/AAAAAAAAAAAAAAAAAAAAAD43ifIwEx87fVGZsEDetdZVDcUU41XHVuSSuBMPgWUd/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=dJqO9iWh66O40fPEzLJqn%2Buor5E%3D)
+![](https://blog.kakaocdn.net/dna/bMyc7J/btsPXBIWk26/AAAAAAAAAAAAAAAAAAAAAD43ifIwEx87fVGZsEDetdZVDcUU41XHVuSSuBMPgWUd/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=nZm4piGdQn5h6pBBKGpSYxbiNlc%3D)
 
 * * *
 
@@ -236,13 +236,13 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
     print(f"GPU = {gpu_stats.name}. Max memory = {max_memory} GB.")
     print(f"{start_gpu_memory} GB of memory reserved.")
 
-![](https://blog.kakaocdn.net/dna/n96fQ/btsPYOufbgq/AAAAAAAAAAAAAAAAAAAAAOvTc1vRPgUTbOgegr1Zwk4bDT7CGHkJqg3TBNKHzThB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=Ix2eDe8n16H%2BecheyQSmVFrg9BU%3D)
+![](https://blog.kakaocdn.net/dna/n96fQ/btsPYOufbgq/AAAAAAAAAAAAAAAAAAAAAOvTc1vRPgUTbOgegr1Zwk4bDT7CGHkJqg3TBNKHzThB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=iwKTd1yvgNF0XxAfEl0kni%2BUvSI%3D)
 
 *   그리고 train 진행
 
     trainer_stats = trainer.train()
 
-![](https://blog.kakaocdn.net/dna/NIncU/btsPVbYKlmc/AAAAAAAAAAAAAAAAAAAAAJy6Tq-Xa2OXc517AAZWTXSZ_5J-T4zTlmhnCM95TfHA/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=XCS4R4Ce79%2F6W7IORqEzG%2BqTZ88%3D)
+![](https://blog.kakaocdn.net/dna/NIncU/btsPVbYKlmc/AAAAAAAAAAAAAAAAAAAAAJy6Tq-Xa2OXc517AAZWTXSZ_5J-T4zTlmhnCM95TfHA/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=oxDvuVDFAJeoQYZD8mZOqoohy7w%3D)
 
 *   최종 메모리 및 시간 통계 확인
 
@@ -259,7 +259,7 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
     print(f"피크 예약 메모리/최대 메모리: {used_percentage} %")
     print(f"학습 증가분/최대 메모리: {lora_percentage} %")
 
-![](https://blog.kakaocdn.net/dna/V6S6d/btsPWj3mgBX/AAAAAAAAAAAAAAAAAAAAANZMqALdJXIiM2XtV3Nuu3bKIMXzrqPMfrhIC8m2IoAq/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=jn%2BbkIQiHTLD4uIfnXcs8lAEduM%3D)
+![](https://blog.kakaocdn.net/dna/V6S6d/btsPWj3mgBX/AAAAAAAAAAAAAAAAAAAAANZMqALdJXIiM2XtV3Nuu3bKIMXzrqPMfrhIC8m2IoAq/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=yisgU1Tdi1uV4RL5fTaXSNlVlvI%3D)
 
 * * *
 
