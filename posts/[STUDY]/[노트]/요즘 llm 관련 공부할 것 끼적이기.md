@@ -1,8 +1,6 @@
 
 # 요즘 llm 관련 공부할 것 끼적이기
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
-
 정리해야함
 
 * * *
@@ -25,7 +23,7 @@ Official Implementation of EAGLE-1 (ICML'24) and EAGLE-2 (EMNLP'24) - SafeAILab/
 
 github.com](https://github.com/SafeAILab/EAGLE)
 
-![](https://blog.kakaocdn.net/dna/AJIb1/btsMdIZRkae/AAAAAAAAAAAAAAAAAAAAAL7CCUUZe4NHh55i59Bx_MM-taWwnjpUHCEdzyh-oWwc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1772290799&allow_ip=&allow_referer=&signature=Vb0MVfh1ROqUhOgkfSq9jwck8cM%3D)
+![](https://blog.kakaocdn.net/dna/AJIb1/btsMdIZRkae/AAAAAAAAAAAAAAAAAAAAAL7CCUUZe4NHh55i59Bx_MM-taWwnjpUHCEdzyh-oWwc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1774969199&allow_ip=&allow_referer=&signature=tjKe5CdBIv78cTksN3crUCzQNEo%3D)
 
 **🚀 1. vLLM (Very Fast Inference)**
 ------------------------------------
@@ -95,6 +93,8 @@ vLLM은 **PagedAttention**이라는 기술을 사용해서 **VRAM을 절약하�
 *   **LLaMA 3.2 1B 모델을 SFT하고 싶을 때**
 *   **LoRA 같은 가벼운 파인튜닝을 적용할 때**
 *   **인퍼런스 + 파인튜닝을 하나의 프레임워크에서 해결하고 싶을 때**
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 52 }
 
