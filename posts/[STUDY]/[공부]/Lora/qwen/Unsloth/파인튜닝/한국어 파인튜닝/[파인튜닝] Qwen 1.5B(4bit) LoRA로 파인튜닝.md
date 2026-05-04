@@ -1,8 +1,6 @@
 
 # [파인튜닝] Qwen 1.5B(4bit) LoRA로 파인튜닝
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
-
 ![](https://blog.kakaocdn.net/dna/mcCM5/btsPWoDmdrB/AAAAAAAAAAAAAAAAAAAAAHpHXWri2U5NZhZsRbpoJ7A1KLkWDp79iUehAV6xSEft/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=3%2F3Tt%2BD9pacO2pP3jMINVOd16kM%3D)
 
 들어가기 전에
@@ -356,6 +354,8 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
 *   트러블슈팅 FAQ
 *   파인튜닝 전/후 테스트
 *   확장 아이디어
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 59 }
 
