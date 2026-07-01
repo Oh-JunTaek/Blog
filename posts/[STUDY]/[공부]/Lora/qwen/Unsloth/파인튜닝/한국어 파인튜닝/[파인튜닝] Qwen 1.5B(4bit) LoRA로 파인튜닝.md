@@ -1,7 +1,7 @@
 
 # [파인튜닝] Qwen 1.5B(4bit) LoRA로 파인튜닝
 
-![](https://blog.kakaocdn.net/dna/mcCM5/btsPWoDmdrB/AAAAAAAAAAAAAAAAAAAAAHpHXWri2U5NZhZsRbpoJ7A1KLkWDp79iUehAV6xSEft/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1782831599&allow_ip=&allow_referer=&signature=3xCNZOd9XF3r2a9QoCY2W0eDicQ%3D)
+![](https://blog.kakaocdn.net/dna/mcCM5/btsPWoDmdrB/AAAAAAAAAAAAAAAAAAAAAHpHXWri2U5NZhZsRbpoJ7A1KLkWDp79iUehAV6xSEft/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1785509999&allow_ip=&allow_referer=&signature=tHY3DoFOgNznUA2uY%2BauNvrB3iw%3D)
 
 들어가기 전에
 -------
@@ -59,9 +59,9 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
 
 *   GPU: T4 16GB(권장), Python 3.10+
 
-![](https://blog.kakaocdn.net/dna/NiTq5/btsPUhSR9Iv/AAAAAAAAAAAAAAAAAAAAAHLmww8rTljBOA15uvjjco2udMEig5FvlOJrW8YlV355/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1782831599&allow_ip=&allow_referer=&signature=1O7jZBNdHl9mBpsiQWSLkQuUt%2Fo%3D)
+![](https://blog.kakaocdn.net/dna/NiTq5/btsPUhSR9Iv/AAAAAAAAAAAAAAAAAAAAAHLmww8rTljBOA15uvjjco2udMEig5FvlOJrW8YlV355/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1785509999&allow_ip=&allow_referer=&signature=GQgR143qHepHHycDA21pisp2r8U%3D)
 
-![](https://blog.kakaocdn.net/dna/sICQu/btsPVm66bJc/AAAAAAAAAAAAAAAAAAAAAB1PKjsf9x3yWyL1SAeVhRKSf3YeqRZELI-RqOhrSaRN/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1782831599&allow_ip=&allow_referer=&signature=cIwS4P8Zz4GAo6NnwJAJZP1DjJQ%3D)
+![](https://blog.kakaocdn.net/dna/sICQu/btsPVm66bJc/AAAAAAAAAAAAAAAAAAAAAB1PKjsf9x3yWyL1SAeVhRKSf3YeqRZELI-RqOhrSaRN/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1785509999&allow_ip=&allow_referer=&signature=2X6mPuNQvMtVILQmsiT0PZk%2BHJk%3D)
 
  T4를 사용하여 진행한 모습
 
@@ -129,7 +129,7 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
     "gate\_proj","up\_proj","down\_proj",    \# FFN 투영층
     
 
-![](https://blog.kakaocdn.net/dna/bMyc7J/btsPXBIWk26/AAAAAAAAAAAAAAAAAAAAAD43ifIwEx87fVGZsEDetdZVDcUU41XHVuSSuBMPgWUd/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1782831599&allow_ip=&allow_referer=&signature=g5LyivDKwejRR%2Fu7vU4K8pfp3To%3D)
+![](https://blog.kakaocdn.net/dna/bMyc7J/btsPXBIWk26/AAAAAAAAAAAAAAAAAAAAAD43ifIwEx87fVGZsEDetdZVDcUU41XHVuSSuBMPgWUd/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1785509999&allow_ip=&allow_referer=&signature=CkpBAbPnb93YQqHTqKwAZk%2BZRr0%3D)
 
 * * *
 
@@ -234,13 +234,13 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
     print(f"GPU = {gpu_stats.name}. Max memory = {max_memory} GB.")
     print(f"{start_gpu_memory} GB of memory reserved.")
 
-![](https://blog.kakaocdn.net/dna/n96fQ/btsPYOufbgq/AAAAAAAAAAAAAAAAAAAAAOvTc1vRPgUTbOgegr1Zwk4bDT7CGHkJqg3TBNKHzThB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1782831599&allow_ip=&allow_referer=&signature=VuINX5kPJITHGZ5I5zfFyD2lb7I%3D)
+![](https://blog.kakaocdn.net/dna/n96fQ/btsPYOufbgq/AAAAAAAAAAAAAAAAAAAAAOvTc1vRPgUTbOgegr1Zwk4bDT7CGHkJqg3TBNKHzThB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1785509999&allow_ip=&allow_referer=&signature=q7BgG0b3iej2BvKLD14aJiwHoLw%3D)
 
 *   그리고 train 진행
 
     trainer_stats = trainer.train()
 
-![](https://blog.kakaocdn.net/dna/NIncU/btsPVbYKlmc/AAAAAAAAAAAAAAAAAAAAAJy6Tq-Xa2OXc517AAZWTXSZ_5J-T4zTlmhnCM95TfHA/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1782831599&allow_ip=&allow_referer=&signature=sQHA5t9LidQoPfrbQOx4lkzq%2BR8%3D)
+![](https://blog.kakaocdn.net/dna/NIncU/btsPVbYKlmc/AAAAAAAAAAAAAAAAAAAAAJy6Tq-Xa2OXc517AAZWTXSZ_5J-T4zTlmhnCM95TfHA/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1785509999&allow_ip=&allow_referer=&signature=u%2BnrFtBGpR%2FH9vyYfA8XU2fuq4c%3D)
 
 *   최종 메모리 및 시간 통계 확인
 
@@ -257,7 +257,7 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/58)
     print(f"피크 예약 메모리/최대 메모리: {used_percentage} %")
     print(f"학습 증가분/최대 메모리: {lora_percentage} %")
 
-![](https://blog.kakaocdn.net/dna/V6S6d/btsPWj3mgBX/AAAAAAAAAAAAAAAAAAAAANZMqALdJXIiM2XtV3Nuu3bKIMXzrqPMfrhIC8m2IoAq/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1782831599&allow_ip=&allow_referer=&signature=eIR0y3ikxdptPD62KNXrH0ptgMo%3D)
+![](https://blog.kakaocdn.net/dna/V6S6d/btsPWj3mgBX/AAAAAAAAAAAAAAAAAAAAANZMqALdJXIiM2XtV3Nuu3bKIMXzrqPMfrhIC8m2IoAq/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1785509999&allow_ip=&allow_referer=&signature=Z16wQUj6z3l78gxjnTnzQ7AL3R4%3D)
 
 * * *
 
