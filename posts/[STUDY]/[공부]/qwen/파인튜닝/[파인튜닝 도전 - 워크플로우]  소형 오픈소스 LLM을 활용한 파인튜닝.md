@@ -1,6 +1,8 @@
 
 # [파인튜닝 도전 - 워크플로우]  소형 오픈소스 LLM을 활용한 파인튜닝
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
+
 ### 파인튜닝 
 
 > Qwen2.5-1.5B를 4bit+LoRA로 한국어 교과 데이터에 SFT 해보기 (Unsloth/TRL 실습)
@@ -120,8 +122,6 @@
 
 *   **참고 영상**
     *   [https://www.youtube.com/watch?v=F\_RpQ9OYHss&list=LL](https://www.youtube.com/watch?v=F_RpQ9OYHss&list=LL)
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 58 }
 
