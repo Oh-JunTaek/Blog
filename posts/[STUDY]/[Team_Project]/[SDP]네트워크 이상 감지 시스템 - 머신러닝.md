@@ -1,8 +1,6 @@
 
 # [SDP]네트워크 이상 감지 시스템 - 머신러닝
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
-
 데이터 편 보고오기 : [https://eunmastudio.tistory.com/50](https://eunmastudio.tistory.com/50)
 
  [\[SDP\]네트워크 이상 감지 시스템 - data 편
@@ -111,14 +109,14 @@ eunmastudio.tistory.com](https://eunmastudio.tistory.com/50)
     [[356670    578]
      [   462 129901]]
 
-![](https://blog.kakaocdn.net/dna/Q4GZS/btsMa5V4p71/AAAAAAAAAAAAAAAAAAAAAH-ZiSKvpXhXj7jr4_K3RB9I0u7qKUXG16_gpSrRjA6P/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1793458799&allow_ip=&allow_referer=&signature=nUVIm9yQvboeDwjsZ5ndOTZlXQA%3D)
+![](https://blog.kakaocdn.net/dna/Q4GZS/btsMa5V4p71/AAAAAAAAAAAAAAAAAAAAAH-ZiSKvpXhXj7jr4_K3RB9I0u7qKUXG16_gpSrRjA6P/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1796050799&allow_ip=&allow_referer=&signature=L7qVQv4rGCnUNEMbFqdOfwyH1xo%3D)
 
 * * *
 
 ### **랜덤 포레스트 Feature Importance 분석  
 **
 
-![](https://blog.kakaocdn.net/dna/kYiYD/btsMcz9ijXT/AAAAAAAAAAAAAAAAAAAAAKBl7dkjWBfVgUaVhta5SutGiMBjic4tA9bQQzYrbRU0/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1793458799&allow_ip=&allow_referer=&signature=TQrr3dOu0dLxTCMhx0PjSt2ThBQ%3D)
+![](https://blog.kakaocdn.net/dna/kYiYD/btsMcz9ijXT/AAAAAAAAAAAAAAAAAAAAAKBl7dkjWBfVgUaVhta5SutGiMBjic4tA9bQQzYrbRU0/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1796050799&allow_ip=&allow_referer=&signature=PThuG9maZ6Gb35Qjr6KM7RJn%2Fwg%3D)
 
 **가장 중요한 5개 특성**
 
@@ -204,13 +202,13 @@ XGBoost는 tree\_method="gpu\_hist" 옵션을 사용하여 GPU 가속을 활성�
     [[356461    787]
      [   993 129370]]
 
-![](https://blog.kakaocdn.net/dna/bzQyPg/btsMcjMsD84/AAAAAAAAAAAAAAAAAAAAAB1JAGTz0UmNV_BiXu3rluYHlVxqiEzKuqfxj09lmPHO/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1793458799&allow_ip=&allow_referer=&signature=U8fXgHVB3ETVrw7JyzQeuEj4u3o%3D)
+![](https://blog.kakaocdn.net/dna/bzQyPg/btsMcjMsD84/AAAAAAAAAAAAAAAAAAAAAB1JAGTz0UmNV_BiXu3rluYHlVxqiEzKuqfxj09lmPHO/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1796050799&allow_ip=&allow_referer=&signature=%2FJk2AYMeruBFCrx3AfGP6lTsmNU%3D)
 
 * * *
 
 ### **XGBoost Feature Importance 분석**
 
-![](https://blog.kakaocdn.net/dna/dxFmJI/btsMcP5abou/AAAAAAAAAAAAAAAAAAAAAF59RFenu1_tzaJmLM7Om-vIRTVjizuCUgnNIclNhSCp/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1793458799&allow_ip=&allow_referer=&signature=2cU6v%2BdKNzjOE0JHv5s95tZ5FN0%3D)
+![](https://blog.kakaocdn.net/dna/dxFmJI/btsMcP5abou/AAAAAAAAAAAAAAAAAAAAAF59RFenu1_tzaJmLM7Om-vIRTVjizuCUgnNIclNhSCp/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1796050799&allow_ip=&allow_referer=&signature=zTTp7YZuchdLLpxjt0g6O79Auf8%3D)
 
 **가장 중요한 5개 특성**
 
@@ -233,7 +231,7 @@ XGBoost는 tree\_method="gpu\_hist" 옵션을 사용하여 GPU 가속을 활성�
 
 ### **두 모델 성능 비교 (Random Forest vs XGBoost)**
 
-![](https://blog.kakaocdn.net/dna/bKIrz4/btsMdrCRMx0/AAAAAAAAAAAAAAAAAAAAANrMv6autWhPZDVS27yEdEYkUS6nSBtg87dLFalsxRKU/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1793458799&allow_ip=&allow_referer=&signature=1fjqgbOVuS3tcoYMzWIx8ZLSGnA%3D)
+![](https://blog.kakaocdn.net/dna/bKIrz4/btsMdrCRMx0/AAAAAAAAAAAAAAAAAAAAANrMv6autWhPZDVS27yEdEYkUS6nSBtg87dLFalsxRKU/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1796050799&allow_ip=&allow_referer=&signature=uWGUWMU95LYh%2FoRy3ORbuEfu4Wc%3D)
 
 **결론:**
 
@@ -300,6 +298,8 @@ XGBoost는 tree\_method="gpu\_hist" 옵션을 사용하여 GPU 가속을 활성�
 *   현재 모델을 기반으로 **비지도 학습 탐지 모델**을 추가 개발
 *   지도 학습과 비지도 학습을 조합하여 **최적의 네트워크 이상 탐지 시스템 구축**
 *   최종적으로 **하이브리드 앙상블 모델**을 통해 탐지 성능을 극대화
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 51 }
 

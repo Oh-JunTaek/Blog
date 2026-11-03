@@ -25,7 +25,7 @@ Official Implementation of EAGLE-1 (ICML'24) and EAGLE-2 (EMNLP'24) - SafeAILab/
 
 github.com](https://github.com/SafeAILab/EAGLE)
 
-![](https://blog.kakaocdn.net/dna/AJIb1/btsMdIZRkae/AAAAAAAAAAAAAAAAAAAAAL7CCUUZe4NHh55i59Bx_MM-taWwnjpUHCEdzyh-oWwc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1793458799&allow_ip=&allow_referer=&signature=79PIOXXUaScn9FJ%2BBcfVzT5En78%3D)
+![](https://blog.kakaocdn.net/dna/AJIb1/btsMdIZRkae/AAAAAAAAAAAAAAAAAAAAAL7CCUUZe4NHh55i59Bx_MM-taWwnjpUHCEdzyh-oWwc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1796050799&allow_ip=&allow_referer=&signature=1rXUi%2Fh%2FkgkRHsqLcnoAOSzuMek%3D)
 
 **🚀 1. vLLM (Very Fast Inference)**
 ------------------------------------
