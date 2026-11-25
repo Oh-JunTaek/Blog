@@ -22,4 +22,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href="https://eunmastudio.tistory.com/59">[파인튜닝] Qwen 1.5B(4bit) LoRA로 파인튜닝</a></br><a href="https://eunmastudio.tistory.com/58">[파인튜닝 도전 - 워크플로우]  소형 오픈소스 LLM을 활용한 파인튜닝</a></br><a href="https://eunmastudio.tistory.com/57">신경망에 대해서 공부하다가 든 아이디어 정리</a></br><a href="https://eunmastudio.tistory.com/55">[학습 계획]야 너두 파인튜닝 할 수 있어</a></br><a href="https://eunmastudio.tistory.com/54">[딥러닝의 모든것] - 활성화 함수</a></br>
+<a href="https://eunmastudio.tistory.com/60">한국어 중심 소형 LLM을 처음부터 만들기(for Android)</a></br><a href="https://eunmastudio.tistory.com/59">[파인튜닝] Qwen 1.5B(4bit) LoRA로 파인튜닝</a></br><a href="https://eunmastudio.tistory.com/58">[파인튜닝 도전 - 워크플로우]  소형 오픈소스 LLM을 활용한 파인튜닝</a></br><a href="https://eunmastudio.tistory.com/57">신경망에 대해서 공부하다가 든 아이디어 정리</a></br><a href="https://eunmastudio.tistory.com/55">[학습 계획]야 너두 파인튜닝 할 수 있어</a></br>

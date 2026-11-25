@@ -1,6 +1,8 @@
 
 # [SDP]네트워크 이상 감지 시스템 - data 편
 
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
+
 프로젝트 초안 계획서 : [계획서](https://eunmastudio.tistory.com/44)
 
  [프로젝트 초안
@@ -336,8 +338,6 @@ www.kaggle.com](https://www.kaggle.com/datasets/daniaherzalla/tii-ssrc-23/data)
 데이터 편 보고오기 : https://eunmastudio.tistory.com/50 \[SDP\]네트워크 이상 감지 시스템 - data 편프로젝트 초안 계획서 : 계획서 프로젝트 초안프로젝트 계획서프로젝트 명: Smart Data Pipeline & Intelligent Rec
 
 eunmastudio.tistory.com](https://eunmastudio.tistory.com/51)
-
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 50 }
 
