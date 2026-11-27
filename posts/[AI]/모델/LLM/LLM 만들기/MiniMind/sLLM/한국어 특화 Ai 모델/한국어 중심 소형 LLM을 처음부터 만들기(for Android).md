@@ -1,8 +1,6 @@
 
 # 한국어 중심 소형 LLM을 처음부터 만들기(for Android)
 
-(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
-
 **프로젝트 마스터 기획서 v1.2 | 2026-11-24 | 상태: 기획 기준선 / 실험 수치 미확정**
 
 > 목적: 공개 연구와 공개 데이터를 활용하여 한국어 중심 범용 소형 LLM을 무작위 초기 가중치부터 학습하고, 성능·비용·재현성·라이선스를 검증해 모델 가중치와 코드를 공개한다. 최종적으로 Android 개인 비서 **EU**에서 활용 가능성을 평가한다.  
@@ -1340,6 +1338,8 @@ P9 이후
 *    P4: 한국어 Tokenizer 후보 비교 시작
 
 **최종 원칙:** _가장 큰 모델이 아니라, 학습 과정과 성능을 설명할 수 있고 실제로 유용하며 공개 조건을 충족하는 한국어 소형 LLM을 만든다._
+
+(adsbygoogle = window.adsbygoogle || \[\]).push({}); if(window.observeAdsenseUnfilledState !== undefined){ observeAdsenseUnfilledState(); }
 
 window.ReactionButtonType = 'reaction'; window.ReactionApiUrl = '//eunmastudio.tistory.com/reaction'; window.ReactionReqBody = { entryId: 60 }
 
